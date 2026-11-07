@@ -1,0 +1,766 @@
+ {"pokemon": {
+    "MARIO": { "baseStats": { "hp": 83, "atk": 104, "def": 65, "spa": 100, "spd": 95, "spe": 85 }, "types": ["Fire", "Normal"], "abilities": ["Blaze", "Flash Fire"] },
+    "IVYSAUR": { "baseStats": { "hp": 80, "atk": 82, "def": 83, "spa": 80, "spd": 100, "spe": 92 }, "types": ["Grass", "Poison"], "abilities": ["Thick Fat", "Overgrow"] },
+    "DONKEYKONG": { "baseStats": { "hp": 122, "atk": 120, "def": 80, "spa": 85, "spd": 50, "spe": 45 }, "types": ["Fighting", "Ground"], "abilities": ["Guts", "Guts"] },
+    "LINK": { "baseStats": { "hp": 81, "atk": 117, "def": 85, "spa": 68, "spd": 110, "spe": 85 }, "types": ["Fairy", "Fighting"], "abilities": ["Hyper Cutter", "Hyper Cutter"] },
+    "SONIC": { "baseStats": { "hp": 72, "atk": 96, "def": 50, "spa": 200, "spd": 25, "spe": 107 }, "types": ["Normal", "Normal"], "abilities": ["Speed Boost", "Speed Boost"] },
+    "CHARIZARD": { "baseStats": { "hp": 91, "atk": 101, "def": 78, "spa": 100, "spd": 109, "spe": 55 }, "types": ["Fire", "Flying"], "abilities": ["Drought", "Blaze"] },
+    "METAKNIGHT": { "baseStats": { "hp": 69, "atk": 96, "def": 60, "spa": 124, "spd": 56, "spe": 107 }, "types": ["Fairy", "Steel"], "abilities": ["Air Lock", "Keen Eye"] },
+    "SORA": { "baseStats": { "hp": 71, "atk": 90, "def": 62, "spa": 107, "spd": 90, "spe": 122 }, "types": ["Psychic", "Flying"], "abilities": ["Natural Cure", "Own Tempo"] },
+    "YOSHI": { "baseStats": { "hp": 95, "atk": 105, "def": 80, "spa": 104, "spd": 60, "spe": 80 }, "types": ["Normal", "Dragon"], "abilities": ["Immunity", "Run Away"] },
+    "KIRBY": { "baseStats": { "hp": 65, "atk": 109, "def": 60, "spa": 87, "spd": 85, "spe": 91 }, "types": ["Fairy", "Fairy"], "abilities": ["Color Change", "Cute Charm"] },
+    "FOX": { "baseStats": { "hp": 62, "atk": 107, "def": 55, "spa": 140, "spd": 87, "spe": 84 }, "types": ["Normal", "Normal"], "abilities": ["Hustle", "Keen Eye"] },
+    "LUIGI": { "baseStats": { "hp": 83, "atk": 113, "def": 85, "spa": 82, "spd": 104, "spe": 65 }, "types": ["Fire", "Ghost"], "abilities": ["Blaze", "Run Away"] },
+    "NESS": { "baseStats": { "hp": 70, "atk": 90, "def": 78, "spa": 87, "spd": 112, "spe": 100 }, "types": ["Psychic", "Psychic"], "abilities": ["Trace", "Natural Cure"] },
+    "C. FALCON": { "baseStats": { "hp": 95, "atk": 125, "def": 70, "spa": 120, "spd": 30, "spe": 55 }, "types": ["Fighting", "Fighting"], "abilities": ["Limber", "Blaze"] },
+    "PEACH": { "baseStats": { "hp": 70, "atk": 90, "def": 60, "spa": 85, "spd": 90, "spe": 105 }, "types": ["Normal", "Fairy"], "abilities": ["Levitate", "Cute Charm"] },
+    "DAISY": { "baseStats": { "hp": 70, "atk": 99, "def": 54, "spa": 97, "spd": 90, "spe": 90 }, "types": ["Normal", "Grass"], "abilities": ["Natural Cure", "Levitate"] },
+    "BOWSER JR.": { "baseStats": { "hp": 104, "atk": 113, "def": 86, "spa": 70, "spd": 95, "spe": 70 }, "types": ["Dragon", "Dragon"], "abilities": ["Levitate", "Battle Armor"] },
+    "BOWSER": { "baseStats": { "hp": 144, "atk": 113, "def": 86, "spa": 82, "spd": 78, "spe": 40 }, "types": ["Dragon", "Fire"], "abilities": ["Intimidate", "Shell Armor"] },
+    "ICECLIMBER": { "baseStats": { "hp": 77, "atk": 65, "def": 72, "spa": 84, "spd": 82, "spe": 85 }, "types": ["Ice", "Ice"], "abilities": ["Huge Power", "Huge Power"] },
+    "SHEIK": { "baseStats": { "hp": 61, "atk": 75, "def": 60, "spa": 145, "spd": 75, "spe": 120 }, "types": ["Fairy", "Ghost"], "abilities": ["Speed Boost", "Vital Spirit"] },
+    "ZELDA": { "baseStats": { "hp": 81, "atk": 75, "def": 60, "spa": 75, "spd": 125, "spe": 120 }, "types": ["Fairy", "Psychic"], "abilities": ["Trace", "Synchronize"] },
+    "DR. MARIO": { "baseStats": { "hp": 87, "atk": 135, "def": 75, "spa": 32, "spd": 123, "spe": 65 }, "types": ["Normal", "Poison"], "abilities": ["Rock Head", "Poison Point"] },
+    "FALCO": { "baseStats": { "hp": 76, "atk": 107, "def": 74, "spa": 87, "spd": 107, "spe": 84 }, "types": ["Flying", "Flying"], "abilities": ["Keen Eye", "Early Bird"] },
+    "PICHU": { "baseStats": { "hp": 45, "atk": 130, "def": 35, "spa": 117, "spd": 130, "spe": 55 }, "types": ["Electric", "Electric"], "abilities": ["Minus", "Static"] },
+    "PIKACHU": { "baseStats": { "hp": 60, "atk": 115, "def": 50, "spa": 117, "spd": 115, "spe": 70 }, "types": ["Electric", "Electric"], "abilities": ["Plus", "Static"] },
+    "MARTH": { "baseStats": { "hp": 78, "atk": 119, "def": 63, "spa": 113, "spd": 66, "spe": 81 }, "types": ["Normal", "Fighting"], "abilities": ["Inner Focus", "Inner Focus"] },
+    "LUCINA": { "baseStats": { "hp": 78, "atk": 106, "def": 63, "spa": 113, "spd": 66, "spe": 94 }, "types": ["Normal", "Fighting"], "abilities": ["Inner Focus", "Inner Focus"] },
+    "YOUNG LINK": { "baseStats": { "hp": 60, "atk": 88, "def": 72, "spa": 98, "spd": 80, "spe": 85 }, "types": ["Fairy", "Grass"], "abilities": ["Shield Dust", "Overgrow"] },
+    "YINK-DEKU": { "baseStats": { "hp": 60, "atk": 100, "def": 85, "spa": 131, "spd": 80, "spe": 85 }, "types": ["Fairy", "Grass"], "abilities": ["Chlorophyll", "Chlorophyll"] },
+    "YINK-ZORA": { "baseStats": { "hp": 60, "atk": 100, "def": 85, "spa": 98, "spd": 85, "spe": 125 }, "types": ["Fairy", "Water"], "abilities": ["Swift Swim", "Swift Swim"] },
+    "YINK-GORON": { "baseStats": { "hp": 60, "atk": 100, "def": 125, "spa": 98, "spd": 80, "spe": 85 }, "types": ["Fairy", "Rock"], "abilities": ["Sand Veil", "Sand Veil"] },
+    "YINK-DEITY": { "baseStats": { "hp": 60, "atk": 135, "def": 85, "spa": 103, "spd": 80, "spe": 85 }, "types": ["Fairy", "Dark"], "abilities": ["Intimidate", "Pressure"] },
+    "GANONDORF": { "baseStats": { "hp": 110, "atk": 160, "def": 100, "spa": 44, "spd": 61, "spe": 45 }, "types": ["Dark", "Dark"], "abilities": ["Rough Skin", "Pressure"] },
+    "ROY": { "baseStats": { "hp": 78, "atk": 123, "def": 63, "spa": 113, "spd": 66, "spe": 77 }, "types": ["Fire", "Fighting"], "abilities": ["Flame Body", "Flame Body"] },
+    "CHROM": { "baseStats": { "hp": 78, "atk": 123, "def": 63, "spa": 113, "spd": 66, "spe": 77 }, "types": ["Steel", "Fighting"], "abilities": ["Inner Focus", "Inner Focus"] },
+    "MR. G&W": { "baseStats": { "hp": 71, "atk": 110, "def": 45, "spa": 78, "spd": 90, "spe": 131 }, "types": ["Normal", "Normal"], "abilities": ["Rock Head", "Oblivious"] },
+    "SQUIRTLE": { "baseStats": { "hp": 61, "atk": 74, "def": 56, "spa": 112, "spd": 91, "spe": 91 }, "types": ["Water", "Water"], "abilities": ["Torrent", "Rain Dish"] },
+    "WARIO": { "baseStats": { "hp": 101, "atk": 105, "def": 95, "spa": 71, "spd": 67, "spe": 95 }, "types": ["Poison", "Dark"], "abilities": ["Stench", "Stench"] },
+    "JIGGLYPUFF": { "baseStats": { "hp": 157, "atk": 90, "def": 20, "spa": 78, "spd": 30, "spe": 110 }, "types": ["Normal", "Fairy"], "abilities": ["Cute Charm", "Cute Charm"] },
+    "PIT": { "baseStats": { "hp": 72, "atk": 101, "def": 79, "spa": 101, "spd": 101, "spe": 79 }, "types": ["Psychic", "Flying"], "abilities": ["Air Lock", "Air Lock"] },
+    "DARK PIT": { "baseStats": { "hp": 72, "atk": 101, "def": 79, "spa": 101, "spd": 101, "spe": 79 }, "types": ["Dark", "Flying"], "abilities": ["Pressure", "Pressure"] },
+    "SNAKE": { "baseStats": { "hp": 92, "atk": 102, "def": 111, "spa": 58, "spd": 102, "spe": 77 }, "types": ["Steel", "Dark"], "abilities": ["Arena Trap", "Static"] },
+    "IKE": { "baseStats": { "hp": 102, "atk": 131, "def": 94, "spa": 66, "spd": 66, "spe": 63 }, "types": ["Steel", "Steel"], "abilities": ["Vital Spirit", "Vital Spirit"] },
+    "DIDDY KONG": { "baseStats": { "hp": 67, "atk": 98, "def": 60, "spa": 117, "spd": 71, "spe": 98 }, "types": ["Fighting", "Grass"], "abilities": ["Overgrow", "Vital Spirit"] },
+    "LUCAS": { "baseStats": { "hp": 70, "atk": 70, "def": 78, "spa": 87, "spd": 142, "spe": 90 }, "types": ["Psychic", "Ice"], "abilities": ["Swift Swim", "Trace"] },
+    "ZSS": { "baseStats": { "hp": 65, "atk": 90, "def": 70, "spa": 133, "spd": 80, "spe": 100 }, "types": ["Fighting", "Electric"], "abilities": ["Limber", "Clear Body"] },
+    "SAMUS": { "baseStats": { "hp": 100, "atk": 80, "def": 100, "spa": 65, "spd": 133, "spe": 70 }, "types": ["Steel", "Electric"], "abilities": ["Static", "Battle Armor"] },
+    "KING DDD": { "baseStats": { "hp": 137, "atk": 122, "def": 101, "spa": 51, "spd": 63, "spe": 62 }, "types": ["Normal", "Flying"], "abilities": ["Thick Fat", "Oblivious"] },
+    "OLIMAR": { "baseStats": { "hp": 66, "atk": 102, "def": 57, "spa": 85, "spd": 102, "spe": 102 }, "types": ["Grass", "Bug"], "abilities": ["Swarm", "Swarm"] },
+    "LUCARIO": { "baseStats": { "hp": 70, "atk": 110, "def": 70, "spa": 90, "spd": 115, "spe": 70 }, "types": ["Fighting", "Steel"], "abilities": ["Inner Focus", "Vital Spirit"] },
+    "R.O.B.": { "baseStats": { "hp": 85, "atk": 99, "def": 102, "spa": 91, "spd": 99, "spe": 64 }, "types": ["Steel", "Fire"], "abilities": ["Magnet Pull", "Own Tempo"] },
+    "A.MINISTER": { "baseStats": { "hp": 85, "atk": 85, "def": 122, "spa": 80, "spd": 134, "spe": 94 }, "types": ["Steel", "Psychic"], "abilities": ["Levitate", "Levitate"] },
+    "TOON LINK": { "baseStats": { "hp": 64, "atk": 106, "def": 64, "spa": 103, "spd": 91, "spe": 112 }, "types": ["Fairy", "Flying"], "abilities": ["Shield Dust", "Hyper Cutter"] },
+    "WOLF": { "baseStats": { "hp": 82, "atk": 115, "def": 70, "spa": 68, "spd": 105, "spe": 95 }, "types": ["Dark", "Dark"], "abilities": ["Intimidate", "Intimidate"] },
+    "VILLAGER": { "baseStats": { "hp": 73, "atk": 86, "def": 81, "spa": 81, "spd": 108, "spe": 108 }, "types": ["Normal", "Grass"], "abilities": ["Chlorophyll", "Pickup"] },
+    "ROSALINA": { "baseStats": { "hp": 66, "atk": 75, "def": 65, "spa": 92, "spd": 117, "spe": 91 }, "types": ["Psychic", "Fairy"], "abilities": ["Levitate", "Natural Cure"] },
+    "ROSALUMA": { "baseStats": { "hp": 66, "atk": 105, "def": 105, "spa": 92, "spd": 117, "spe": 121 }, "types": ["Psychic", "Fairy"], "abilities": ["Marvel Scale", "Marvel Scale"] },
+    "MEGAMAN": { "baseStats": { "hp": 84, "atk": 87, "def": 98, "spa": 68, "spd": 123, "spe": 76 }, "types": ["Steel", "Steel"], "abilities": ["Trace", "Color Change"] },
+    "WII FIT": { "baseStats": { "hp": 86, "atk": 86, "def": 86, "spa": 91, "spd": 86, "spe": 86 }, "types": ["Normal", "Normal"], "abilities": ["Serene Grace", "Limber"] },
+    "LITTLE MAC": { "baseStats": { "hp": 71, "atk": 135, "def": 70, "spa": 130, "spd": 42, "spe": 59 }, "types": ["Normal", "Fighting"], "abilities": ["Guts", "Vital Spirit"] },
+    "GRENINJA": { "baseStats": { "hp": 72, "atk": 95, "def": 67, "spa": 122, "spd": 103, "spe": 71 }, "types": ["Water", "Dark"], "abilities": ["Water Absorb", "Torrent"] },
+    "GRENINJA-A": { "baseStats": { "hp": 72, "atk": 145, "def": 67, "spa": 132, "spd": 153, "spe": 71 }, "types": ["Water", "Dark"], "abilities": ["Water Absorb", "Torrent"] },
+    "PALUTENA": { "baseStats": { "hp": 52, "atk": 111, "def": 59, "spa": 121, "spd": 111, "spe": 79 }, "types": ["Psychic", "Dragon"], "abilities": ["Serene Grace", "Natural Cure"] },
+    "PAC MAN": { "baseStats": { "hp": 80, "atk": 91, "def": 84, "spa": 71, "spd": 110, "spe": 92 }, "types": ["Normal", "Ghost"], "abilities": ["Soundproof", "Immunity"] },
+    "ROBIN": { "baseStats": { "hp": 80, "atk": 109, "def": 82, "spa": 50, "spd": 125, "spe": 79 }, "types": ["Psychic", "Electr"], "abilities": ["Plus", "Volt Absorb"] },
+    "SHULK": { "baseStats": { "hp": 75, "atk": 100, "def": 90, "spa": 90, "spd": 77, "spe": 90 }, "types": ["Psychic", "Psychic"], "abilities": ["Hyper Cutter", "Cloud Nine"] },
+    "SHULK-SMSH": { "baseStats": { "hp": 75, "atk": 150, "def": 40, "spa": 90, "spd": 77, "spe": 90 }, "types": ["Psychic", "Psychic"], "abilities": ["Hyper Cutter", "Cloud Nine"] },
+    "SHULK-SHLD": { "baseStats": { "hp": 75, "atk": 70, "def": 150, "spa": 90, "spd": 47, "spe": 90 }, "types": ["Psychic", "Psychic"], "abilities": ["Hyper Cutter", "Cloud Nine"] },
+    "SHULK-BSTR": { "baseStats": { "hp": 75, "atk": 77, "def": 90, "spa": 90, "spd": 150, "spe": 40 }, "types": ["Psychic", "Psychic"], "abilities": ["Hyper Cutter", "Cloud Nine"] },
+    "SHULK-JUMP": { "baseStats": { "hp": 75, "atk": 70, "def": 90, "spa": 90, "spd": 47, "spe": 150 }, "types": ["Psychic", "Psychic"], "abilities": ["Hyper Cutter", "Cloud Nine"] },
+    "SHULK-SPD": { "baseStats": { "hp": 75, "atk": 85, "def": 75, "spa": 150, "spd": 62, "spe": 75 }, "types": ["Psychic", "Psychic"], "abilities": ["Hyper Cutter", "Cloud Nine"] },
+    "DUCK HUNT": { "baseStats": { "hp": 71, "atk": 68, "def": 73, "spa": 102, "spd": 109, "spe": 94 }, "types": ["Grass", "Flying"], "abilities": ["Effect Spore", "Early Bird"] },
+    "RYU": { "baseStats": { "hp": 96, "atk": 125, "def": 88, "spa": 63, "spd": 100, "spe": 65 }, "types": ["Fight", "Fight"], "abilities": ["Guts", "Vital Spirit"] },
+    "KEN": { "baseStats": { "hp": 96, "atk": 125, "def": 88, "spa": 100, "spd": 63, "spe": 65 }, "types": ["Fight", "Fight"], "abilities": ["Guts", "Limber"] },
+    "CLOUD": { "baseStats": { "hp": 87, "atk": 105, "def": 75, "spa": 95, "spd": 80, "spe": 88 }, "types": ["Steel", "Psychic"], "abilities": ["Hyper Cutter", "Inner Focus"] },
+    "CORRIN": { "baseStats": { "hp": 78, "atk": 117, "def": 85, "spa": 85, "spd": 72, "spe": 85 }, "types": ["Dragon", "Water"], "abilities": ["Drizzle", "Water Veil"] },
+    "BAYONETTA": { "baseStats": { "hp": 71, "atk": 110, "def": 75, "spa": 85, "spd": 77, "spe": 110 }, "types": ["Ghost", "Psychic"], "abilities": ["Marvel Scale", "Shed Skin"] },
+    "INKLING": { "baseStats": { "hp": 75, "atk": 80, "def": 77, "spa": 108, "spd": 80, "spe": 90 }, "types": ["Poison", "Rock"], "abilities": ["Poison Point", "Suction Cups"] },
+    "RIDLEY": { "baseStats": { "hp": 113, "atk": 111, "def": 60, "spa": 98, "spd": 104, "spe": 47 }, "types": ["Dragon", "Dark"], "abilities": ["Intimidate", "Shed Skin"] },
+    "METARIDLEY": { "baseStats": { "hp": 113, "atk": 111, "def": 100, "spa": 98, "spd": 104, "spe": 100 }, "types": ["Dragon", "Steel"], "abilities": ["Intimidate", "Intimidate"] },
+    "SIMON": { "baseStats": { "hp": 112, "atk": 100, "def": 93, "spa": 41, "spd": 140, "spe": 56 }, "types": ["Ghost", "Ghost"], "abilities": ["White Smoke", "Inner Focus"] },
+    "RICHTER": { "baseStats": { "hp": 112, "atk": 100, "def": 93, "spa": 41, "spd": 140, "spe": 56 }, "types": ["Ghost", "Ghost"], "abilities": ["White Smoke", "Inner Focus"] },
+    "KINGKROOL": { "baseStats": { "hp": 120, "atk": 110, "def": 94, "spa": 62, "spd": 110, "spe": 51 }, "types": ["Dark", "Water"], "abilities": ["Inner Focus", "Inner Focus"] },
+    "ISABELLE": { "baseStats": { "hp": 73, "atk": 86, "def": 68, "spa": 108, "spd": 115, "spe": 87 }, "types": ["Normal", "Ground"], "abilities": ["Sand Veil", "Pickup"] },
+    "INCINEROAR": { "baseStats": { "hp": 95, "atk": 125, "def": 100, "spa": 75, "spd": 75, "spe": 55 }, "types": ["Fire", "Dark"], "abilities": ["Intimidate", "Blaze"] },
+    "P. PLANT": { "baseStats": { "hp": 95, "atk": 120, "def": 88, "spa": 91, "spd": 78, "spe": 69 }, "types": ["Grass", "Poison"], "abilities": ["Poison Point", "Rough Skin"] },
+    "PETEY P.": { "baseStats": { "hp": 110, "atk": 130, "def": 90, "spa": 120, "spd": 90, "spe": 72 }, "types": ["Grass", "Fire"], "abilities": ["Chlorophyll", "Rough Skin"] },
+    "JOKER": { "baseStats": { "hp": 68, "atk": 83, "def": 70, "spa": 77, "spd": 81, "spe": 119 }, "types": ["Dark", "Dark"], "abilities": ["Limber", "Pickup"] },
+    "ARSENE": { "baseStats": { "hp": 68, "atk": 139, "def": 70, "spa": 110, "spd": 81, "spe": 119 }, "types": ["Dark", "Fire"], "abilities": ["Flash Fire", "Flash Fire"] },
+    "HERO": { "baseStats": { "hp": 85, "atk": 90, "def": 81, "spa": 105, "spd": 81, "spe": 90 }, "types": ["Normal", "Psychic"], "abilities": ["Hustle", "Own Tempo"] },
+    "BANJO": { "baseStats": { "hp": 79, "atk": 100, "def": 100, "spa": 72, "spd": 84, "spe": 100 }, "types": ["Normal", "Flying"], "abilities": ["Oblivious", "Early Bird"] },
+    "TERRY": { "baseStats": { "hp": 100, "atk": 110, "def": 90, "spa": 70, "spd": 70, "spe": 95 }, "types": ["Fight", "Ground"], "abilities": ["Guts", "Sturdy"] },
+    "BYLETH": { "baseStats": { "hp": 78, "atk": 145, "def": 79, "spa": 64, "spd": 79, "spe": 77 }, "types": ["Ground", "Ground"], "abilities": ["Sand Veil", "Sand Veil"] },
+    "MIN MIN": { "baseStats": { "hp": 90, "atk": 110, "def": 85, "spa": 85, "spd": 65, "spe": 88 }, "types": ["Fight", "Dragon"], "abilities": ["Limber", "Suction Cups"] },
+    "STEVE-WOOD": { "baseStats": { "hp": 75, "atk": 100, "def": 97, "spa": 85, "spd": 86, "spe": 68 }, "types": ["Ground", "Grass"], "abilities": ["Shield Dust", "Shield Dust"] },
+    "STEVE-STNE": { "baseStats": { "hp": 75, "atk": 115, "def": 110, "spa": 85, "spd": 93, "spe": 83 }, "types": ["Ground", "Rock"], "abilities": ["Sturdy", "Sturdy"] },
+    "STEVE-DIA": { "baseStats": { "hp": 75, "atk": 130, "def": 120, "spa": 85, "spd": 100, "spe": 100 }, "types": ["Ground", "Steel"], "abilities": ["Sand Stream", "Sand Stream"] },
+    "SEPHIROTH": { "baseStats": { "hp": 70, "atk": 112, "def": 62, "spa": 100, "spd": 80, "spe": 101 }, "types": ["Dark", "Psychic"], "abilities": ["Synchronize", "Pressure"] },
+    "ONE WINGED": { "baseStats": { "hp": 70, "atk": 122, "def": 80, "spa": 100, "spd": 80, "spe": 125 }, "types": ["Dark", "Flying"], "abilities": ["Intimidate", "Intimidate"] },
+    "PYRA": { "baseStats": { "hp": 80, "atk": 138, "def": 82, "spa": 71, "spd": 74, "spe": 82 }, "types": ["Fire", "Psychic"], "abilities": ["Blaze", "Blaze"] },
+    "MYTHRA": { "baseStats": { "hp": 80, "atk": 82, "def": 74, "spa": 71, "spd": 82, "spe": 138 }, "types": ["Psychic", "Fire"], "abilities": ["Synchronize", "Synchronize"] },
+    "KAZUYA": { "baseStats": { "hp": 97, "atk": 141, "def": 91, "spa": 101, "spd": 60, "spe": 55 }, "types": ["Fight", "Dark"], "abilities": ["Pressure", "Rough Skin"] },
+    "METROID": { "baseStats": { "hp": 50, "atk": 103, "def": 80, "spa": 82, "spd": 70, "spe": 65 }, "types": ["Bug", "Poison"], "abilities": ["Swarm", "Poison Point"] },
+    "DARK SAMUS": { "baseStats": { "hp": 100, "atk": 80, "def": 100, "spa": 133, "spd": 70, "spe": 65 }, "types": ["Dark", "Bug"], "abilities": ["Volt Absorb", "Battle Armor"] },
+    "GRAY FOX": { "baseStats": { "hp": 74, "atk": 111, "def": 66, "spa": 55, "spd": 105, "spe": 100 }, "types": ["Ghost", "Steel"], "abilities": ["Compoundeyes", "Pressure"] },
+    "HAMMER BRO": { "baseStats": { "hp": 75, "atk": 105, "def": 89, "spa": 73, "spd": 75, "spe": 75 }, "types": ["Rock", "Rock"], "abilities": ["Shell Armor", "Shell Armor"] },
+    "ISSAC": { "baseStats": { "hp": 72, "atk": 100, "def": 77, "spa": 100, "spd": 77, "spe": 91 }, "types": ["Psychic", "Ground"], "abilities": ["Inner Focus", "Sand Veil"] },
+    "LYN": { "baseStats": { "hp": 75, "atk": 93, "def": 67, "spa": 61, "spd": 109, "spe": 119 }, "types": ["Fight", "Fight"], "abilities": ["Hustle", "Vital Spirit"] },
+    "SHADOW": { "baseStats": { "hp": 72, "atk": 96, "def": 50, "spa": 105, "spd": 85, "spe": 130 }, "types": ["Dark", "Dark"], "abilities": ["Shadow Tag", "Shadow Tag"] },
+    "STARFY": { "baseStats": { "hp": 70, "atk": 102, "def": 76, "spa": 92, "spd": 81, "spe": 83 }, "types": ["Water", "Water"], "abilities": ["Water Absorb", "Illuminate"] },
+    "WALUIGI": { "baseStats": { "hp": 113, "atk": 103, "def": 93, "spa": 83, "spd": 73, "spe": 63 }, "types": ["Poison", "Water"], "abilities": ["Stench", "Damp"] },
+    "ASHLEY": { "baseStats": { "hp": 66, "atk": 45, "def": 72, "spa": 105, "spd": 141, "spe": 76 }, "types": ["Psychic", "Dark"], "abilities": ["Compoundeyes", "Cute Charm"] },
+    "DILLION": { "baseStats": { "hp": 90, "atk": 101, "def": 120, "spa": 55, "spd": 68, "spe": 81 }, "types": ["Rock", "Rock"], "abilities": ["Rock Head", "Oblivious"] },
+    "GHIRAHIM": { "baseStats": { "hp": 70, "atk": 100, "def": 55, "spa": 100, "spd": 123, "spe": 105 }, "types": ["Dark", "Fairy"], "abilities": ["Pressure", "Own Tempo"] },
+    "MAGNUS": { "baseStats": { "hp": 87, "atk": 115, "def": 135, "spa": 60, "spd": 63, "spe": 65 }, "types": ["Rock", "Steel"], "abilities": ["Rock Head", "Sturdy"] },
+    "PHOSPHORA": { "baseStats": { "hp": 70, "atk": 84, "def": 70, "spa": 100, "spd": 86, "spe": 120 }, "types": ["Electric", "Flying"], "abilities": ["Volt Absorb", "Static"] },
+    "SKULL KID": { "baseStats": { "hp": 69, "atk": 88, "def": 58, "spa": 132, "spd": 110, "spe": 79 }, "types": ["Dark", "Grass"], "abilities": ["Overgrow", "Shield Dust"] },
+    "LAKITU": { "baseStats": { "hp": 66, "atk": 89, "def": 75, "spa": 89, "spd": 89, "spe": 99 }, "types": ["Flying", "Bug"], "abilities": ["Swarm", "Shell Armor"] },
+    "POLAR BEAR": { "baseStats": { "hp": 95, "atk": 130, "def": 80, "spa": 65, "spd": 80, "spe": 55 }, "types": ["Ice", "Water"], "abilities": ["Swift Swim", "Own Tempo"] },
+    "BOMBERMAN": { "baseStats": { "hp": 79, "atk": 110, "def": 75, "spa": 110, "spd": 75, "spe": 70 }, "types": ["Fire", "Fire"], "abilities": ["Flash Fire", "Magma Armor"] },
+    "B. SNAGRET": { "baseStats": { "hp": 70, "atk": 110, "def": 93, "spa": 55, "spd": 93, "spe": 93 }, "types": ["Ground", "Flying"], "abilities": ["Early Bird", "Keen Eye"] },
+    "KLAPTRAP": { "baseStats": { "hp": 50, "atk": 135, "def": 67, "spa": 45, "spd": 45, "spe": 74 }, "types": ["Water", "Water"], "abilities": ["Arena Trap", "Rain Dish"] },
+    "KNUCKLES": { "baseStats": { "hp": 90, "atk": 120, "def": 86, "spa": 55, "spd": 63, "spe": 96 }, "types": ["Fight", "Rock"], "abilities": ["Guts", "Hustle"] },
+    "KRYSTAL": { "baseStats": { "hp": 74, "atk": 63, "def": 78, "spa": 112, "spd": 96, "spe": 93 }, "types": ["Ice", "Psychic"], "abilities": ["Immunity", "Limber"] },
+    "MIDNA": { "baseStats": { "hp": 55, "atk": 63, "def": 69, "spa": 120, "spd": 110, "spe": 104 }, "types": ["Ghost", "Ghost"], "abilities": ["Serene Grace", "Insomnia"] },
+    "SHVLKNIGHT": { "baseStats": { "hp": 94, "atk": 85, "def": 117, "spa": 71, "spd": 100, "spe": 70 }, "types": ["Steel", "Ground"], "abilities": ["Lightningrod", "Battle Armor"] },
+    "TIKI": { "baseStats": { "hp": 72, "atk": 80, "def": 65, "spa": 110, "spd": 100, "spe": 102 }, "types": ["Dragon", "Dragon"], "abilities": ["Marvel Scale", "Serene Grace"] },
+    "DR. WILY": { "baseStats": { "hp": 88, "atk": 50, "def": 110, "spa": 110, "spd": 110, "spe": 70 }, "types": ["Normal", "Steel"], "abilities": ["Levitate", "Magnet Pull"] },
+    "ZERO": { "baseStats": { "hp": 84, "atk": 123, "def": 98, "spa": 87, "spd": 76, "spe": 68 }, "types": ["Steel", "Steel"], "abilities": ["Volt Absorb", "Soundproof"] },
+    "FLYING MAN": { "baseStats": { "hp": 80, "atk": 102, "def": 75, "spa": 64, "spd": 63, "spe": 116 }, "types": ["Flying", "Fight"], "abilities": ["Oblivious", "Own Tempo"] },
+    "ARISTOCRAB": { "baseStats": { "hp": 100, "atk": 116, "def": 90, "spa": 62, "spd": 90, "spe": 67 }, "types": ["Bug", "Water"], "abilities": ["Water Veil", "Damp"] },
+    "LURCHTHORN": { "baseStats": { "hp": 101, "atk": 94, "def": 111, "spa": 96, "spd": 111, "spe": 52 }, "types": ["Grass", "Steel"], "abilities": ["Rough Skin", "Effect Spore"] },
+    "TWINROVA": { "baseStats": { "hp": 95, "atk": 60, "def": 81, "spa": 120, "spd": 124, "spe": 100 }, "types": ["Ice", "Fire"], "abilities": ["White Smoke", "Cloud Nine"] },
+    "ANDROSS": { "baseStats": { "hp": 75, "atk": 90, "def": 120, "spa": 125, "spd": 120, "spe": 50 }, "types": ["Psychic", "Rock"], "abilities": ["Levitate", "Clear Body"] },
+    "YLW DEVIL": { "baseStats": { "hp": 100, "atk": 90, "def": 110, "spa": 90, "spd": 110, "spe": 80 }, "types": ["Electr", "Poison"], "abilities": ["Liquid Ooze", "Sticky Hold"] },
+    "MARX": { "baseStats": { "hp": 90, "atk": 95, "def": 90, "spa": 150, "spd": 115, "spe": 110 }, "types": ["Fairy", "Ghost"], "abilities": ["Levitate", "Liquid Ooze"] },
+    "RATHALOS": { "baseStats": { "hp": 100, "atk": 130, "def": 100, "spa": 115, "spd": 100, "spe": 105 }, "types": ["Dragon", "Fire"], "abilities": ["Flame Body", "Rough Skin"] },
+    "GIGABOWSER": { "baseStats": { "hp": 164, "atk": 134, "def": 121, "spa": 100, "spd": 75, "spe": 76 }, "types": ["Dragon", "Dark"], "abilities": ["Intimidate", "Shell Armor"] },
+    "BEASTGANON": { "baseStats": { "hp": 135, "atk": 185, "def": 125, "spa": 86, "spd": 70, "spe": 69 }, "types": ["Dark", "Dark"], "abilities": ["Pressure", "Pressure"] },
+    "RAYQUAZA": { "baseStats": { "hp": 105, "atk": 150, "def": 90, "spa": 150, "spd": 90, "spe": 95 }, "types": ["Dragon", "Flying"], "abilities": ["Air Lock", "Air Lock"] },
+    "DUON": { "baseStats": { "hp": 100, "atk": 120, "def": 120, "spa": 150, "spd": 100, "spe": 90 }, "types": ["Water", "Steel"], "abilities": ["Drizzle", "Drizzle"] },
+    "GALLEOM": { "baseStats": { "hp": 100, "atk": 135, "def": 125, "spa": 115, "spd": 105, "spe": 100 }, "types": ["Fight", "Steel"], "abilities": ["Volt Absorb", "Volt Absorb"] },
+    "BOMB-OMB": { "baseStats": { "hp": 50, "atk": 125, "def": 50, "spa": 125, "spd": 50, "spe": 5 }, "types": ["Fire", "Steel"], "abilities": ["Pure Power", "Pure Power"] },
+    "MASTERHAND": { "baseStats": { "hp": 140, "atk": 120, "def": 100, "spa": 120, "spd": 100, "spe": 100 }, "types": ["Normal", "Normal"], "abilities": ["Pressure", "Pressure"] },
+    "CRAZY HAND": { "baseStats": { "hp": 120, "atk": 140, "def": 100, "spa": 120, "spd": 100, "spe": 100 }, "types": ["Normal", "Fight"], "abilities": ["Own Tempo", "Own Tempo"] },
+    "GALEEM": { "baseStats": { "hp": 125, "atk": 80, "def": 110, "spa": 130, "spd": 125, "spe": 110 }, "types": ["Psychic", "Fairy"], "abilities": ["Marvel Scale", "-------"] },
+    "DHARKON": { "baseStats": { "hp": 125, "atk": 100, "def": 125, "spa": 110, "spd": 130, "spe": 80 }, "types": ["Dark", "Ghost"], "abilities": ["Guts", "Guts"] },
+    "TABUU": { "baseStats": { "hp": 100, "atk": 140, "def": 94, "spa": 140, "spd": 95, "spe": 131 }, "types": ["Psychic", "Ghost"], "abilities": ["Clear Body", "Clear Body"] },
+    "MASTERCORE": { "baseStats": { "hp": 120, "atk": 120, "def": 120, "spa": 120, "spd": 120, "spe": 120 }, "types": ["Normal", "Ghost"], "abilities": ["Pressure", "Pressure"] },
+    "MEWTWO": { "baseStats": { "hp": 65, "atk": 110, "def": 62, "spa": 134, "spd": 65, "spe": 110 }, "types": ["Psychic", "Psychic"], "abilities": ["Pressure", "Pressure"] },
+    "M-MEWTWO-Y": { "baseStats": { "hp": 81, "atk": 130, "def": 90, "spa": 174, "spd": 95, "spe": 130 }, "types": ["Psychic", "Psychic"], "abilities": ["Pressure", "Pressure"] }}}, {"pokemon": {
+    "MARIO": { "baseStats": { "hp": 83, "atk": 104, "def": 65, "spa": 100, "spd": 95, "spe": 85 }, "types": ["Fire", "Normal"], "abilities": ["Blaze", "Flash Fire"] },
+    "IVYSAUR": { "baseStats": { "hp": 80, "atk": 82, "def": 83, "spa": 80, "spd": 100, "spe": 92 }, "types": ["Grass", "Poison"], "abilities": ["Thick Fat", "Overgrow"] },
+    "DONKEYKONG": { "baseStats": { "hp": 122, "atk": 120, "def": 80, "spa": 85, "spd": 50, "spe": 45 }, "types": ["Fighting", "Ground"], "abilities": ["Guts", "Guts"] },
+    "LINK": { "baseStats": { "hp": 81, "atk": 117, "def": 85, "spa": 68, "spd": 110, "spe": 85 }, "types": ["Fairy", "Fighting"], "abilities": ["Hyper Cutter", "Hyper Cutter"] },
+    "SONIC": { "baseStats": { "hp": 72, "atk": 96, "def": 50, "spa": 200, "spd": 25, "spe": 107 }, "types": ["Normal", "Normal"], "abilities": ["Speed Boost", "Speed Boost"] },
+    "CHARIZARD": { "baseStats": { "hp": 91, "atk": 101, "def": 78, "spa": 100, "spd": 109, "spe": 55 }, "types": ["Fire", "Flying"], "abilities": ["Drought", "Blaze"] },
+    "METAKNIGHT": { "baseStats": { "hp": 69, "atk": 96, "def": 60, "spa": 124, "spd": 56, "spe": 107 }, "types": ["Fairy", "Steel"], "abilities": ["Air Lock", "Keen Eye"] },
+    "SORA": { "baseStats": { "hp": 71, "atk": 90, "def": 62, "spa": 107, "spd": 90, "spe": 122 }, "types": ["Psychic", "Flying"], "abilities": ["Natural Cure", "Own Tempo"] },
+    "YOSHI": { "baseStats": { "hp": 95, "atk": 105, "def": 80, "spa": 104, "spd": 60, "spe": 80 }, "types": ["Normal", "Dragon"], "abilities": ["Immunity", "Run Away"] },
+    "KIRBY": { "baseStats": { "hp": 65, "atk": 109, "def": 60, "spa": 87, "spd": 85, "spe": 91 }, "types": ["Fairy", "Fairy"], "abilities": ["Color Change", "Cute Charm"] },
+    "FOX": { "baseStats": { "hp": 62, "atk": 107, "def": 55, "spa": 140, "spd": 87, "spe": 84 }, "types": ["Normal", "Normal"], "abilities": ["Hustle", "Keen Eye"] },
+    "LUIGI": { "baseStats": { "hp": 83, "atk": 113, "def": 85, "spa": 82, "spd": 104, "spe": 65 }, "types": ["Fire", "Ghost"], "abilities": ["Blaze", "Run Away"] },
+    "NESS": { "baseStats": { "hp": 70, "atk": 90, "def": 78, "spa": 87, "spd": 112, "spe": 100 }, "types": ["Psychic", "Psychic"], "abilities": ["Trace", "Natural Cure"] },
+    "C. FALCON": { "baseStats": { "hp": 95, "atk": 125, "def": 70, "spa": 120, "spd": 30, "spe": 55 }, "types": ["Fighting", "Fighting"], "abilities": ["Limber", "Blaze"] },
+    "PEACH": { "baseStats": { "hp": 70, "atk": 90, "def": 60, "spa": 85, "spd": 90, "spe": 105 }, "types": ["Normal", "Fairy"], "abilities": ["Levitate", "Cute Charm"] },
+    "DAISY": { "baseStats": { "hp": 70, "atk": 99, "def": 54, "spa": 97, "spd": 90, "spe": 90 }, "types": ["Normal", "Grass"], "abilities": ["Natural Cure", "Levitate"] },
+    "BOWSER JR.": { "baseStats": { "hp": 104, "atk": 113, "def": 86, "spa": 70, "spd": 95, "spe": 70 }, "types": ["Dragon", "Dragon"], "abilities": ["Levitate", "Battle Armor"] },
+    "BOWSER": { "baseStats": { "hp": 144, "atk": 113, "def": 86, "spa": 82, "spd": 78, "spe": 40 }, "types": ["Dragon", "Fire"], "abilities": ["Intimidate", "Shell Armor"] },
+    "ICECLIMBER": { "baseStats": { "hp": 77, "atk": 65, "def": 72, "spa": 84, "spd": 82, "spe": 85 }, "types": ["Ice", "Ice"], "abilities": ["Huge Power", "Huge Power"] },
+    "SHEIK": { "baseStats": { "hp": 61, "atk": 75, "def": 60, "spa": 145, "spd": 75, "spe": 120 }, "types": ["Fairy", "Ghost"], "abilities": ["Speed Boost", "Vital Spirit"] },
+    "ZELDA": { "baseStats": { "hp": 81, "atk": 75, "def": 60, "spa": 75, "spd": 125, "spe": 120 }, "types": ["Fairy", "Psychic"], "abilities": ["Trace", "Synchronize"] },
+    "DR. MARIO": { "baseStats": { "hp": 87, "atk": 135, "def": 75, "spa": 32, "spd": 123, "spe": 65 }, "types": ["Normal", "Poison"], "abilities": ["Rock Head", "Poison Point"] },
+    "FALCO": { "baseStats": { "hp": 76, "atk": 107, "def": 74, "spa": 87, "spd": 107, "spe": 84 }, "types": ["Flying", "Flying"], "abilities": ["Keen Eye", "Early Bird"] },
+    "PICHU": { "baseStats": { "hp": 45, "atk": 130, "def": 35, "spa": 117, "spd": 130, "spe": 55 }, "types": ["Electric", "Electric"], "abilities": ["Minus", "Static"] },
+    "PIKACHU": { "baseStats": { "hp": 60, "atk": 115, "def": 50, "spa": 117, "spd": 115, "spe": 70 }, "types": ["Electric", "Electric"], "abilities": ["Plus", "Static"] },
+    "MARTH": { "baseStats": { "hp": 78, "atk": 119, "def": 63, "spa": 113, "spd": 66, "spe": 81 }, "types": ["Normal", "Fighting"], "abilities": ["Inner Focus", "Inner Focus"] },
+    "LUCINA": { "baseStats": { "hp": 78, "atk": 106, "def": 63, "spa": 113, "spd": 66, "spe": 94 }, "types": ["Normal", "Fighting"], "abilities": ["Inner Focus", "Inner Focus"] },
+    "YOUNG LINK": { "baseStats": { "hp": 60, "atk": 88, "def": 72, "spa": 98, "spd": 80, "spe": 85 }, "types": ["Fairy", "Grass"], "abilities": ["Shield Dust", "Overgrow"] },
+    "YINK-DEKU": { "baseStats": { "hp": 60, "atk": 100, "def": 85, "spa": 131, "spd": 80, "spe": 85 }, "types": ["Fairy", "Grass"], "abilities": ["Chlorophyll", "Chlorophyll"] },
+    "YINK-ZORA": { "baseStats": { "hp": 60, "atk": 100, "def": 85, "spa": 98, "spd": 85, "spe": 125 }, "types": ["Fairy", "Water"], "abilities": ["Swift Swim", "Swift Swim"] },
+    "YINK-GORON": { "baseStats": { "hp": 60, "atk": 100, "def": 125, "spa": 98, "spd": 80, "spe": 85 }, "types": ["Fairy", "Rock"], "abilities": ["Sand Veil", "Sand Veil"] },
+    "YINK-DEITY": { "baseStats": { "hp": 60, "atk": 135, "def": 85, "spa": 103, "spd": 80, "spe": 85 }, "types": ["Fairy", "Dark"], "abilities": ["Intimidate", "Pressure"] },
+    "GANONDORF": { "baseStats": { "hp": 110, "atk": 160, "def": 100, "spa": 44, "spd": 61, "spe": 45 }, "types": ["Dark", "Dark"], "abilities": ["Rough Skin", "Pressure"] },
+    "ROY": { "baseStats": { "hp": 78, "atk": 123, "def": 63, "spa": 113, "spd": 66, "spe": 77 }, "types": ["Fire", "Fighting"], "abilities": ["Flame Body", "Flame Body"] },
+    "CHROM": { "baseStats": { "hp": 78, "atk": 123, "def": 63, "spa": 113, "spd": 66, "spe": 77 }, "types": ["Steel", "Fighting"], "abilities": ["Inner Focus", "Inner Focus"] },
+    "MR. G&W": { "baseStats": { "hp": 71, "atk": 110, "def": 45, "spa": 78, "spd": 90, "spe": 131 }, "types": ["Normal", "Normal"], "abilities": ["Rock Head", "Oblivious"] },
+    "SQUIRTLE": { "baseStats": { "hp": 61, "atk": 74, "def": 56, "spa": 112, "spd": 91, "spe": 91 }, "types": ["Water", "Water"], "abilities": ["Torrent", "Rain Dish"] },
+    "WARIO": { "baseStats": { "hp": 101, "atk": 105, "def": 95, "spa": 71, "spd": 67, "spe": 95 }, "types": ["Poison", "Dark"], "abilities": ["Stench", "Stench"] },
+    "JIGGLYPUFF": { "baseStats": { "hp": 157, "atk": 90, "def": 20, "spa": 78, "spd": 30, "spe": 110 }, "types": ["Normal", "Fairy"], "abilities": ["Cute Charm", "Cute Charm"] },
+    "PIT": { "baseStats": { "hp": 72, "atk": 101, "def": 79, "spa": 101, "spd": 101, "spe": 79 }, "types": ["Psychic", "Flying"], "abilities": ["Air Lock", "Air Lock"] },
+    "DARK PIT": { "baseStats": { "hp": 72, "atk": 101, "def": 79, "spa": 101, "spd": 101, "spe": 79 }, "types": ["Dark", "Flying"], "abilities": ["Pressure", "Pressure"] },
+    "SNAKE": { "baseStats": { "hp": 92, "atk": 102, "def": 111, "spa": 58, "spd": 102, "spe": 77 }, "types": ["Steel", "Dark"], "abilities": ["Arena Trap", "Static"] },
+    "IKE": { "baseStats": { "hp": 102, "atk": 131, "def": 94, "spa": 66, "spd": 66, "spe": 63 }, "types": ["Steel", "Steel"], "abilities": ["Vital Spirit", "Vital Spirit"] },
+    "DIDDY KONG": { "baseStats": { "hp": 67, "atk": 98, "def": 60, "spa": 117, "spd": 71, "spe": 98 }, "types": ["Fighting", "Grass"], "abilities": ["Overgrow", "Vital Spirit"] },
+    "LUCAS": { "baseStats": { "hp": 70, "atk": 70, "def": 78, "spa": 87, "spd": 142, "spe": 90 }, "types": ["Psychic", "Ice"], "abilities": ["Swift Swim", "Trace"] },
+    "ZSS": { "baseStats": { "hp": 65, "atk": 90, "def": 70, "spa": 133, "spd": 80, "spe": 100 }, "types": ["Fighting", "Electric"], "abilities": ["Limber", "Clear Body"] },
+    "SAMUS": { "baseStats": { "hp": 100, "atk": 80, "def": 100, "spa": 65, "spd": 133, "spe": 70 }, "types": ["Steel", "Electric"], "abilities": ["Static", "Battle Armor"] },
+    "KING DDD": { "baseStats": { "hp": 137, "atk": 122, "def": 101, "spa": 51, "spd": 63, "spe": 62 }, "types": ["Normal", "Flying"], "abilities": ["Thick Fat", "Oblivious"] },
+    "OLIMAR": { "baseStats": { "hp": 66, "atk": 102, "def": 57, "spa": 85, "spd": 102, "spe": 102 }, "types": ["Grass", "Bug"], "abilities": ["Swarm", "Swarm"] },
+    "LUCARIO": { "baseStats": { "hp": 70, "atk": 110, "def": 70, "spa": 90, "spd": 115, "spe": 70 }, "types": ["Fighting", "Steel"], "abilities": ["Inner Focus", "Vital Spirit"] },
+    "R.O.B.": { "baseStats": { "hp": 85, "atk": 99, "def": 102, "spa": 91, "spd": 99, "spe": 64 }, "types": ["Steel", "Fire"], "abilities": ["Magnet Pull", "Own Tempo"] },
+    "A.MINISTER": { "baseStats": { "hp": 85, "atk": 85, "def": 122, "spa": 80, "spd": 134, "spe": 94 }, "types": ["Steel", "Psychic"], "abilities": ["Levitate", "Levitate"] },
+    "TOON LINK": { "baseStats": { "hp": 64, "atk": 106, "def": 64, "spa": 103, "spd": 91, "spe": 112 }, "types": ["Fairy", "Flying"], "abilities": ["Shield Dust", "Hyper Cutter"] },
+    "WOLF": { "baseStats": { "hp": 82, "atk": 115, "def": 70, "spa": 68, "spd": 105, "spe": 95 }, "types": ["Dark", "Dark"], "abilities": ["Intimidate", "Intimidate"] },
+    "VILLAGER": { "baseStats": { "hp": 73, "atk": 86, "def": 81, "spa": 81, "spd": 108, "spe": 108 }, "types": ["Normal", "Grass"], "abilities": ["Chlorophyll", "Pickup"] },
+    "ROSALINA": { "baseStats": { "hp": 66, "atk": 75, "def": 65, "spa": 92, "spd": 117, "spe": 91 }, "types": ["Psychic", "Fairy"], "abilities": ["Levitate", "Natural Cure"] },
+    "ROSALUMA": { "baseStats": { "hp": 66, "atk": 105, "def": 105, "spa": 92, "spd": 117, "spe": 121 }, "types": ["Psychic", "Fairy"], "abilities": ["Marvel Scale", "Marvel Scale"] },
+    "MEGAMAN": { "baseStats": { "hp": 84, "atk": 87, "def": 98, "spa": 68, "spd": 123, "spe": 76 }, "types": ["Steel", "Steel"], "abilities": ["Trace", "Color Change"] },
+    "WII FIT": { "baseStats": { "hp": 86, "atk": 86, "def": 86, "spa": 91, "spd": 86, "spe": 86 }, "types": ["Normal", "Normal"], "abilities": ["Serene Grace", "Limber"] },
+    "LITTLE MAC": { "baseStats": { "hp": 71, "atk": 135, "def": 70, "spa": 130, "spd": 42, "spe": 59 }, "types": ["Normal", "Fighting"], "abilities": ["Guts", "Vital Spirit"] },
+    "GRENINJA": { "baseStats": { "hp": 72, "atk": 95, "def": 67, "spa": 122, "spd": 103, "spe": 71 }, "types": ["Water", "Dark"], "abilities": ["Water Absorb", "Torrent"] },
+    "GRENINJA-A": { "baseStats": { "hp": 72, "atk": 145, "def": 67, "spa": 132, "spd": 153, "spe": 71 }, "types": ["Water", "Dark"], "abilities": ["Water Absorb", "Torrent"] },
+    "PALUTENA": { "baseStats": { "hp": 52, "atk": 111, "def": 59, "spa": 121, "spd": 111, "spe": 79 }, "types": ["Psychic", "Dragon"], "abilities": ["Serene Grace", "Natural Cure"] },
+    "PAC MAN": { "baseStats": { "hp": 80, "atk": 91, "def": 84, "spa": 71, "spd": 110, "spe": 92 }, "types": ["Normal", "Ghost"], "abilities": ["Soundproof", "Immunity"] },
+    "ROBIN": { "baseStats": { "hp": 80, "atk": 109, "def": 82, "spa": 50, "spd": 125, "spe": 79 }, "types": ["Psychic", "Electr"], "abilities": ["Plus", "Volt Absorb"] },
+    "SHULK": { "baseStats": { "hp": 75, "atk": 100, "def": 90, "spa": 90, "spd": 77, "spe": 90 }, "types": ["Psychic", "Psychic"], "abilities": ["Hyper Cutter", "Cloud Nine"] },
+    "SHULK-SMSH": { "baseStats": { "hp": 75, "atk": 150, "def": 40, "spa": 90, "spd": 77, "spe": 90 }, "types": ["Psychic", "Psychic"], "abilities": ["Hyper Cutter", "Cloud Nine"] },
+    "SHULK-SHLD": { "baseStats": { "hp": 75, "atk": 70, "def": 150, "spa": 90, "spd": 47, "spe": 90 }, "types": ["Psychic", "Psychic"], "abilities": ["Hyper Cutter", "Cloud Nine"] },
+    "SHULK-BSTR": { "baseStats": { "hp": 75, "atk": 77, "def": 90, "spa": 90, "spd": 150, "spe": 40 }, "types": ["Psychic", "Psychic"], "abilities": ["Hyper Cutter", "Cloud Nine"] },
+    "SHULK-JUMP": { "baseStats": { "hp": 75, "atk": 70, "def": 90, "spa": 90, "spd": 47, "spe": 150 }, "types": ["Psychic", "Psychic"], "abilities": ["Hyper Cutter", "Cloud Nine"] },
+    "SHULK-SPD": { "baseStats": { "hp": 75, "atk": 85, "def": 75, "spa": 150, "spd": 62, "spe": 75 }, "types": ["Psychic", "Psychic"], "abilities": ["Hyper Cutter", "Cloud Nine"] },
+    "DUCK HUNT": { "baseStats": { "hp": 71, "atk": 68, "def": 73, "spa": 102, "spd": 109, "spe": 94 }, "types": ["Grass", "Flying"], "abilities": ["Effect Spore", "Early Bird"] },
+    "RYU": { "baseStats": { "hp": 96, "atk": 125, "def": 88, "spa": 63, "spd": 100, "spe": 65 }, "types": ["Fight", "Fight"], "abilities": ["Guts", "Vital Spirit"] },
+    "KEN": { "baseStats": { "hp": 96, "atk": 125, "def": 88, "spa": 100, "spd": 63, "spe": 65 }, "types": ["Fight", "Fight"], "abilities": ["Guts", "Limber"] },
+    "CLOUD": { "baseStats": { "hp": 87, "atk": 105, "def": 75, "spa": 95, "spd": 80, "spe": 88 }, "types": ["Steel", "Psychic"], "abilities": ["Hyper Cutter", "Inner Focus"] },
+    "CORRIN": { "baseStats": { "hp": 78, "atk": 117, "def": 85, "spa": 85, "spd": 72, "spe": 85 }, "types": ["Dragon", "Water"], "abilities": ["Drizzle", "Water Veil"] },
+    "BAYONETTA": { "baseStats": { "hp": 71, "atk": 110, "def": 75, "spa": 85, "spd": 77, "spe": 110 }, "types": ["Ghost", "Psychic"], "abilities": ["Marvel Scale", "Shed Skin"] },
+    "INKLING": { "baseStats": { "hp": 75, "atk": 80, "def": 77, "spa": 108, "spd": 80, "spe": 90 }, "types": ["Poison", "Rock"], "abilities": ["Poison Point", "Suction Cups"] },
+    "RIDLEY": { "baseStats": { "hp": 113, "atk": 111, "def": 60, "spa": 98, "spd": 104, "spe": 47 }, "types": ["Dragon", "Dark"], "abilities": ["Intimidate", "Shed Skin"] },
+    "METARIDLEY": { "baseStats": { "hp": 113, "atk": 111, "def": 100, "spa": 98, "spd": 104, "spe": 100 }, "types": ["Dragon", "Steel"], "abilities": ["Intimidate", "Intimidate"] },
+    "SIMON": { "baseStats": { "hp": 112, "atk": 100, "def": 93, "spa": 41, "spd": 140, "spe": 56 }, "types": ["Ghost", "Ghost"], "abilities": ["White Smoke", "Inner Focus"] },
+    "RICHTER": { "baseStats": { "hp": 112, "atk": 100, "def": 93, "spa": 41, "spd": 140, "spe": 56 }, "types": ["Ghost", "Ghost"], "abilities": ["White Smoke", "Inner Focus"] },
+    "KINGKROOL": { "baseStats": { "hp": 120, "atk": 110, "def": 94, "spa": 62, "spd": 110, "spe": 51 }, "types": ["Dark", "Water"], "abilities": ["Inner Focus", "Inner Focus"] },
+    "ISABELLE": { "baseStats": { "hp": 73, "atk": 86, "def": 68, "spa": 108, "spd": 115, "spe": 87 }, "types": ["Normal", "Ground"], "abilities": ["Sand Veil", "Pickup"] },
+    "INCINEROAR": { "baseStats": { "hp": 95, "atk": 125, "def": 100, "spa": 75, "spd": 75, "spe": 55 }, "types": ["Fire", "Dark"], "abilities": ["Intimidate", "Blaze"] },
+    "P. PLANT": { "baseStats": { "hp": 95, "atk": 120, "def": 88, "spa": 91, "spd": 78, "spe": 69 }, "types": ["Grass", "Poison"], "abilities": ["Poison Point", "Rough Skin"] },
+    "PETEY P.": { "baseStats": { "hp": 110, "atk": 130, "def": 90, "spa": 120, "spd": 90, "spe": 72 }, "types": ["Grass", "Fire"], "abilities": ["Chlorophyll", "Rough Skin"] },
+    "JOKER": { "baseStats": { "hp": 68, "atk": 83, "def": 70, "spa": 77, "spd": 81, "spe": 119 }, "types": ["Dark", "Dark"], "abilities": ["Limber", "Pickup"] },
+    "ARSENE": { "baseStats": { "hp": 68, "atk": 139, "def": 70, "spa": 110, "spd": 81, "spe": 119 }, "types": ["Dark", "Fire"], "abilities": ["Flash Fire", "Flash Fire"] },
+    "HERO": { "baseStats": { "hp": 85, "atk": 90, "def": 81, "spa": 105, "spd": 81, "spe": 90 }, "types": ["Normal", "Psychic"], "abilities": ["Hustle", "Own Tempo"] },
+    "BANJO": { "baseStats": { "hp": 79, "atk": 100, "def": 100, "spa": 72, "spd": 84, "spe": 100 }, "types": ["Normal", "Flying"], "abilities": ["Oblivious", "Early Bird"] },
+    "TERRY": { "baseStats": { "hp": 100, "atk": 110, "def": 90, "spa": 70, "spd": 70, "spe": 95 }, "types": ["Fight", "Ground"], "abilities": ["Guts", "Sturdy"] },
+    "BYLETH": { "baseStats": { "hp": 78, "atk": 145, "def": 79, "spa": 64, "spd": 79, "spe": 77 }, "types": ["Ground", "Ground"], "abilities": ["Sand Veil", "Sand Veil"] },
+    "MIN MIN": { "baseStats": { "hp": 90, "atk": 110, "def": 85, "spa": 85, "spd": 65, "spe": 88 }, "types": ["Fight", "Dragon"], "abilities": ["Limber", "Suction Cups"] },
+    "STEVE-WOOD": { "baseStats": { "hp": 75, "atk": 100, "def": 97, "spa": 85, "spd": 86, "spe": 68 }, "types": ["Ground", "Grass"], "abilities": ["Shield Dust", "Shield Dust"] },
+    "STEVE-STNE": { "baseStats": { "hp": 75, "atk": 115, "def": 110, "spa": 85, "spd": 93, "spe": 83 }, "types": ["Ground", "Rock"], "abilities": ["Sturdy", "Sturdy"] },
+    "STEVE-DIA": { "baseStats": { "hp": 75, "atk": 130, "def": 120, "spa": 85, "spd": 100, "spe": 100 }, "types": ["Ground", "Steel"], "abilities": ["Sand Stream", "Sand Stream"] },
+    "SEPHIROTH": { "baseStats": { "hp": 70, "atk": 112, "def": 62, "spa": 100, "spd": 80, "spe": 101 }, "types": ["Dark", "Psychic"], "abilities": ["Synchronize", "Pressure"] },
+    "ONE WINGED": { "baseStats": { "hp": 70, "atk": 122, "def": 80, "spa": 100, "spd": 80, "spe": 125 }, "types": ["Dark", "Flying"], "abilities": ["Intimidate", "Intimidate"] },
+    "PYRA": { "baseStats": { "hp": 80, "atk": 138, "def": 82, "spa": 71, "spd": 74, "spe": 82 }, "types": ["Fire", "Psychic"], "abilities": ["Blaze", "Blaze"] },
+    "MYTHRA": { "baseStats": { "hp": 80, "atk": 82, "def": 74, "spa": 71, "spd": 82, "spe": 138 }, "types": ["Psychic", "Fire"], "abilities": ["Synchronize", "Synchronize"] },
+    "KAZUYA": { "baseStats": { "hp": 97, "atk": 141, "def": 91, "spa": 101, "spd": 60, "spe": 55 }, "types": ["Fight", "Dark"], "abilities": ["Pressure", "Rough Skin"] },
+    "METROID": { "baseStats": { "hp": 50, "atk": 103, "def": 80, "spa": 82, "spd": 70, "spe": 65 }, "types": ["Bug", "Poison"], "abilities": ["Swarm", "Poison Point"] },
+    "DARK SAMUS": { "baseStats": { "hp": 100, "atk": 80, "def": 100, "spa": 133, "spd": 70, "spe": 65 }, "types": ["Dark", "Bug"], "abilities": ["Volt Absorb", "Battle Armor"] },
+    "GRAY FOX": { "baseStats": { "hp": 74, "atk": 111, "def": 66, "spa": 55, "spd": 105, "spe": 100 }, "types": ["Ghost", "Steel"], "abilities": ["Compoundeyes", "Pressure"] },
+    "HAMMER BRO": { "baseStats": { "hp": 75, "atk": 105, "def": 89, "spa": 73, "spd": 75, "spe": 75 }, "types": ["Rock", "Rock"], "abilities": ["Shell Armor", "Shell Armor"] },
+    "ISSAC": { "baseStats": { "hp": 72, "atk": 100, "def": 77, "spa": 100, "spd": 77, "spe": 91 }, "types": ["Psychic", "Ground"], "abilities": ["Inner Focus", "Sand Veil"] },
+    "LYN": { "baseStats": { "hp": 75, "atk": 93, "def": 67, "spa": 61, "spd": 109, "spe": 119 }, "types": ["Fight", "Fight"], "abilities": ["Hustle", "Vital Spirit"] },
+    "SHADOW": { "baseStats": { "hp": 72, "atk": 96, "def": 50, "spa": 105, "spd": 85, "spe": 130 }, "types": ["Dark", "Dark"], "abilities": ["Shadow Tag", "Shadow Tag"] },
+    "STARFY": { "baseStats": { "hp": 70, "atk": 102, "def": 76, "spa": 92, "spd": 81, "spe": 83 }, "types": ["Water", "Water"], "abilities": ["Water Absorb", "Illuminate"] },
+    "WALUIGI": { "baseStats": { "hp": 113, "atk": 103, "def": 93, "spa": 83, "spd": 73, "spe": 63 }, "types": ["Poison", "Water"], "abilities": ["Stench", "Damp"] },
+    "ASHLEY": { "baseStats": { "hp": 66, "atk": 45, "def": 72, "spa": 105, "spd": 141, "spe": 76 }, "types": ["Psychic", "Dark"], "abilities": ["Compoundeyes", "Cute Charm"] },
+    "DILLION": { "baseStats": { "hp": 90, "atk": 101, "def": 120, "spa": 55, "spd": 68, "spe": 81 }, "types": ["Rock", "Rock"], "abilities": ["Rock Head", "Oblivious"] },
+    "GHIRAHIM": { "baseStats": { "hp": 70, "atk": 100, "def": 55, "spa": 100, "spd": 123, "spe": 105 }, "types": ["Dark", "Fairy"], "abilities": ["Pressure", "Own Tempo"] },
+    "MAGNUS": { "baseStats": { "hp": 87, "atk": 115, "def": 135, "spa": 60, "spd": 63, "spe": 65 }, "types": ["Rock", "Steel"], "abilities": ["Rock Head", "Sturdy"] },
+    "PHOSPHORA": { "baseStats": { "hp": 70, "atk": 84, "def": 70, "spa": 100, "spd": 86, "spe": 120 }, "types": ["Electric", "Flying"], "abilities": ["Volt Absorb", "Static"] },
+    "SKULL KID": { "baseStats": { "hp": 69, "atk": 88, "def": 58, "spa": 132, "spd": 110, "spe": 79 }, "types": ["Dark", "Grass"], "abilities": ["Overgrow", "Shield Dust"] },
+    "LAKITU": { "baseStats": { "hp": 66, "atk": 89, "def": 75, "spa": 89, "spd": 89, "spe": 99 }, "types": ["Flying", "Bug"], "abilities": ["Swarm", "Shell Armor"] },
+    "POLAR BEAR": { "baseStats": { "hp": 95, "atk": 130, "def": 80, "spa": 65, "spd": 80, "spe": 55 }, "types": ["Ice", "Water"], "abilities": ["Swift Swim", "Own Tempo"] },
+    "BOMBERMAN": { "baseStats": { "hp": 79, "atk": 110, "def": 75, "spa": 110, "spd": 75, "spe": 70 }, "types": ["Fire", "Fire"], "abilities": ["Flash Fire", "Magma Armor"] },
+    "B. SNAGRET": { "baseStats": { "hp": 70, "atk": 110, "def": 93, "spa": 55, "spd": 93, "spe": 93 }, "types": ["Ground", "Flying"], "abilities": ["Early Bird", "Keen Eye"] },
+    "KLAPTRAP": { "baseStats": { "hp": 50, "atk": 135, "def": 67, "spa": 45, "spd": 45, "spe": 74 }, "types": ["Water", "Water"], "abilities": ["Arena Trap", "Rain Dish"] },
+    "KNUCKLES": { "baseStats": { "hp": 90, "atk": 120, "def": 86, "spa": 55, "spd": 63, "spe": 96 }, "types": ["Fight", "Rock"], "abilities": ["Guts", "Hustle"] },
+    "KRYSTAL": { "baseStats": { "hp": 74, "atk": 63, "def": 78, "spa": 112, "spd": 96, "spe": 93 }, "types": ["Ice", "Psychic"], "abilities": ["Immunity", "Limber"] },
+    "MIDNA": { "baseStats": { "hp": 55, "atk": 63, "def": 69, "spa": 120, "spd": 110, "spe": 104 }, "types": ["Ghost", "Ghost"], "abilities": ["Serene Grace", "Insomnia"] },
+    "SHVLKNIGHT": { "baseStats": { "hp": 94, "atk": 85, "def": 117, "spa": 71, "spd": 100, "spe": 70 }, "types": ["Steel", "Ground"], "abilities": ["Lightningrod", "Battle Armor"] },
+    "TIKI": { "baseStats": { "hp": 72, "atk": 80, "def": 65, "spa": 110, "spd": 100, "spe": 102 }, "types": ["Dragon", "Dragon"], "abilities": ["Marvel Scale", "Serene Grace"] },
+    "DR. WILY": { "baseStats": { "hp": 88, "atk": 50, "def": 110, "spa": 110, "spd": 110, "spe": 70 }, "types": ["Normal", "Steel"], "abilities": ["Levitate", "Magnet Pull"] },
+    "ZERO": { "baseStats": { "hp": 84, "atk": 123, "def": 98, "spa": 87, "spd": 76, "spe": 68 }, "types": ["Steel", "Steel"], "abilities": ["Volt Absorb", "Soundproof"] },
+    "FLYING MAN": { "baseStats": { "hp": 80, "atk": 102, "def": 75, "spa": 64, "spd": 63, "spe": 116 }, "types": ["Flying", "Fight"], "abilities": ["Oblivious", "Own Tempo"] },
+    "ARISTOCRAB": { "baseStats": { "hp": 100, "atk": 116, "def": 90, "spa": 62, "spd": 90, "spe": 67 }, "types": ["Bug", "Water"], "abilities": ["Water Veil", "Damp"] },
+    "LURCHTHORN": { "baseStats": { "hp": 101, "atk": 94, "def": 111, "spa": 96, "spd": 111, "spe": 52 }, "types": ["Grass", "Steel"], "abilities": ["Rough Skin", "Effect Spore"] },
+    "TWINROVA": { "baseStats": { "hp": 95, "atk": 60, "def": 81, "spa": 120, "spd": 124, "spe": 100 }, "types": ["Ice", "Fire"], "abilities": ["White Smoke", "Cloud Nine"] },
+    "ANDROSS": { "baseStats": { "hp": 75, "atk": 90, "def": 120, "spa": 125, "spd": 120, "spe": 50 }, "types": ["Psychic", "Rock"], "abilities": ["Levitate", "Clear Body"] },
+    "YLW DEVIL": { "baseStats": { "hp": 100, "atk": 90, "def": 110, "spa": 90, "spd": 110, "spe": 80 }, "types": ["Electr", "Poison"], "abilities": ["Liquid Ooze", "Sticky Hold"] },
+    "MARX": { "baseStats": { "hp": 90, "atk": 95, "def": 90, "spa": 150, "spd": 115, "spe": 110 }, "types": ["Fairy", "Ghost"], "abilities": ["Levitate", "Liquid Ooze"] },
+    "RATHALOS": { "baseStats": { "hp": 100, "atk": 130, "def": 100, "spa": 115, "spd": 100, "spe": 105 }, "types": ["Dragon", "Fire"], "abilities": ["Flame Body", "Rough Skin"] },
+    "GIGABOWSER": { "baseStats": { "hp": 164, "atk": 134, "def": 121, "spa": 100, "spd": 75, "spe": 76 }, "types": ["Dragon", "Dark"], "abilities": ["Intimidate", "Shell Armor"] },
+    "BEASTGANON": { "baseStats": { "hp": 135, "atk": 185, "def": 125, "spa": 86, "spd": 70, "spe": 69 }, "types": ["Dark", "Dark"], "abilities": ["Pressure", "Pressure"] },
+    "RAYQUAZA": { "baseStats": { "hp": 105, "atk": 150, "def": 90, "spa": 150, "spd": 90, "spe": 95 }, "types": ["Dragon", "Flying"], "abilities": ["Air Lock", "Air Lock"] },
+    "DUON": { "baseStats": { "hp": 100, "atk": 120, "def": 120, "spa": 150, "spd": 100, "spe": 90 }, "types": ["Water", "Steel"], "abilities": ["Drizzle", "Drizzle"] },
+    "GALLEOM": { "baseStats": { "hp": 100, "atk": 135, "def": 125, "spa": 115, "spd": 105, "spe": 100 }, "types": ["Fight", "Steel"], "abilities": ["Volt Absorb", "Volt Absorb"] },
+    "BOMB-OMB": { "baseStats": { "hp": 50, "atk": 125, "def": 50, "spa": 125, "spd": 50, "spe": 5 }, "types": ["Fire", "Steel"], "abilities": ["Pure Power", "Pure Power"] },
+    "MASTERHAND": { "baseStats": { "hp": 140, "atk": 120, "def": 100, "spa": 120, "spd": 100, "spe": 100 }, "types": ["Normal", "Normal"], "abilities": ["Pressure", "Pressure"] },
+    "CRAZY HAND": { "baseStats": { "hp": 120, "atk": 140, "def": 100, "spa": 120, "spd": 100, "spe": 100 }, "types": ["Normal", "Fight"], "abilities": ["Own Tempo", "Own Tempo"] },
+    "GALEEM": { "baseStats": { "hp": 125, "atk": 80, "def": 110, "spa": 130, "spd": 125, "spe": 110 }, "types": ["Psychic", "Fairy"], "abilities": ["Marvel Scale", "-------"] },
+    "DHARKON": { "baseStats": { "hp": 125, "atk": 100, "def": 125, "spa": 110, "spd": 130, "spe": 80 }, "types": ["Dark", "Ghost"], "abilities": ["Guts", "Guts"] },
+    "TABUU": { "baseStats": { "hp": 100, "atk": 140, "def": 94, "spa": 140, "spd": 95, "spe": 131 }, "types": ["Psychic", "Ghost"], "abilities": ["Clear Body", "Clear Body"] },
+    "MASTERCORE": { "baseStats": { "hp": 120, "atk": 120, "def": 120, "spa": 120, "spd": 120, "spe": 120 }, "types": ["Normal", "Ghost"], "abilities": ["Pressure", "Pressure"] },
+    "MEWTWO": { "baseStats": { "hp": 65, "atk": 110, "def": 62, "spa": 134, "spd": 65, "spe": 110 }, "types": ["Psychic", "Psychic"], "abilities": ["Pressure", "Pressure"] },
+    "M-MEWTWO-Y": { "baseStats": { "hp": 81, "atk": 130, "def": 90, "spa": 174, "spd": 95, "spe": 130 }, "types": ["Psychic", "Psychic"], "abilities": ["Pressure", "Pressure"] }}}
+    
+    ,{
+  "trainers": {
+    "Rival - Route 22 (Variant A)": {
+      "trainerClass": "Rival",
+      "name": "Rival",
+      "party": [
+        { "species": "STEVE-WOOD", "level": 9, "ability": "Shield Dust", "moves": ["Sand Tomb", "Harden", "Spikes"] },
+        { "species": "LUIGI", "level": 9, "ability": "Blaze", "moves": ["Tackle", "Ember", "Sand Attack"] },
+        { "species": "LINK", "level": 9, "ability": "Hyper Cutter", "moves": ["Scratch", "Focus Energy", "Protect"] }
+      ]
+    },
+    "Rival - Route 22 (Variant B)": {
+      "trainerClass": "Rival",
+      "name": "Rival",
+      "party": [
+        { "species": "STEVE-WOOD", "level": 9, "ability": "Shield Dust", "moves": ["Sand Tomb", "Harden", "Spikes"] },
+        { "species": "KIRBY", "level": 9, "ability": "Color Change", "moves": ["Transform", "Pound", "Charm", "Drain Kiss"] },
+        { "species": "MARIO", "level": 9, "ability": "Blaze", "moves": ["Tackle", "Ember", "Leer"] }
+      ]
+    },
+    "Rival - Route 22 (Variant C)": {
+      "trainerClass": "Rival",
+      "name": "Rival",
+      "party": [
+        { "species": "STEVE-WOOD", "level": 9, "ability": "Shield Dust", "moves": ["Sand Tomb", "Harden", "Spikes"] },
+        { "species": "TOON LINK", "level": 9, "ability": "Hyper Cutter", "moves": ["Scratch", "Protect", "Focus Energy"] },
+        { "species": "META KNIGHT", "level": 9, "ability": "Keen Eye", "moves": ["Covet", "Focus Energy", "Metal Claw"] }
+      ]
+    },
+    "Leader Brock - Double Battle": {
+      "trainerClass": "Leader",
+      "name": "Brock",
+      "party": [
+        { "species": "PEACH", "level": 14, "ability": "Levitate", "moves": ["Sing", "Stomp", "Drain Kiss", "Follow Me"] },
+        { "species": "MARIO", "level": 16, "ability": "Blaze", "moves": ["Bulk Up", "Flame Wheel", "Rock Tomb", "Headbutt"] },
+        { "species": "LUIGI", "level": 15, "ability": "Blaze", "moves": ["Shadow Punch", "Rock Tomb", "Flame Wheel", "Will-O-Wisp"] },
+        { "species": "YOSHI", "level": 15, "ability": "Run Away", "moves": ["Headbutt", "Breaking Swipe", "Rock Tomb", "Yawn"] }
+      ]
+    },
+    "Rival - Route 25 (Variant A)": {
+      "trainerClass": "Rival",
+      "name": "Rival",
+      "party": [
+        { "species": "STEVE-WOOD", "level": 19, "ability": "Shield Dust", "moves": ["Sand Tomb", "Bullet Seed", "Spikes", "Dig"] },
+        { "species": "LUIGI", "level": 18, "ability": "Blaze", "moves": ["Will-O-Wisp", "Flame Wheel", "Astonish", "Headbutt"] },
+        { "species": "BOWSER JR.", "level": 18, "ability": "Levitate", "moves": ["Horn Attack", "Leer", "Dragonbreath", "Lick"] },
+        { "species": "LINK", "level": 20, "ability": "Hyper Cutter", "moves": ["Slash", "Double Kick", "Magnet Bomb", "Focus Energy"] }
+      ]
+    },
+    "Rival - Route 25 (Variant B)": {
+      "trainerClass": "Rival",
+      "name": "Rival",
+      "party": [
+        { "species": "STEVE-WOOD", "level": 19, "ability": "Shield Dust", "moves": ["Sand Tomb", "Bullet Seed", "Spikes", "Dig"] },
+        { "species": "KIRBY", "level": 18, "ability": "Color Change", "moves": ["Drain Kiss", "Air Cutter", "Low Kick", "Charm"] },
+        { "species": "KING DEDEDE", "level": 18, "ability": "Thick Fat", "moves": ["Headbutt", "Peck", "Haze", "Mimic"] },
+        { "species": "MARIO", "level": 20, "ability": "Blaze", "moves": ["Flame Wheel", "Headbutt", "Bounce", "Low Kick"] }
+      ]
+    },
+    "Rival - Route 25 (Variant C)": {
+      "trainerClass": "Rival",
+      "name": "Rival",
+      "party": [
+        { "species": "STEVE-WOOD", "level": 19, "ability": "Shield Dust", "moves": ["Sand Tomb", "Bullet Seed", "Spikes", "Dig"] },
+        { "species": "TOON LINK", "level": 18, "ability": "Hyper Cutter", "moves": ["Cut", "Aerial Ace", "Focus Energy", "Magnet Bomb"] },
+        { "species": "GANONDORF", "level": 18, "ability": "Pressure", "moves": ["Karate Chop", "Pursuit", "Slam", "Disable"] },
+        { "species": "META KNIGHT", "level": 20, "ability": "Keen Eye", "moves": ["Aerial Ace", "Sharpen", "Astonish", "Metal Claw"] }
+      ]
+    },
+    "Leader Misty": {
+      "trainerClass": "Leader",
+      "name": "Misty",
+      "party": [
+        { "species": "YINK-ZORA", "level": 24, "ability": "Swift Swim", "moves": ["Spikes", "Water Pulse", "Spirit Break", "Double Kick"] },
+        { "species": "KRYSTAL", "level": 24, "ability": "Limber", "moves": ["Water Pulse", "Extrasensory", "Shock Wave", "Icy Wind"] },
+        { "species": "STARFY", "level": 23, "ability": "Illuminate", "moves": ["Water Pulse", "Ice Beam", "Meteor Beam", "Cosmic Power"] },
+        { "species": "KLAPTRAP", "level": 23, "ability": "Arena Trap", "moves": ["Crunch", "Waterfall", "Poison Point", "Aqua Jet"] },
+        { "species": "WALUIGI", "level": 24, "ability": "Stench", "moves": ["Toxic Torque", "Waterfall", "Bulk Up", "Leech Life"] },
+        { "species": "ARISTOCRAB", "level": 25, "ability": "Damp", "moves": ["Crabhammer", "Leech Life", "Bullet Seed", "Swords Dance"] }
+      ]
+    },
+    "Rival - SS Anne (Variant A)": {
+      "trainerClass": "Rival",
+      "name": "Rival",
+      "party": [
+        { "species": "LUIGI", "level": 26, "ability": "Blaze", "moves": ["Fire Punch", "Shadow Punch", "Bullet Seed", "Rock Tomb"] },
+        { "species": "GRENINJA", "level": 26, "ability": "Water Absorb", "moves": ["Water Pulse", "Night Slash", "Fake Out", "Aerial Ace"] },
+        { "species": "BOWSER JR.", "level": 25, "ability": "Levitate", "moves": ["Dragon Rage", "Drill Run", "Iron Defense", "Magnet Bomb"] },
+        { "species": "STEVE-STONE", "level": 25, "ability": "Sand Veil", "moves": ["Dig", "Sand Tomb", "Iron Defense", "Rock Tomb"] },
+        { "species": "LINK", "level": 27, "ability": "Hyper Cutter", "moves": ["Triple Arrow", "Magnet Bomb", "Slash", "Cut"] }
+      ]
+    },
+    "Rival - SS Anne (Variant B)": {
+      "trainerClass": "Rival",
+      "name": "Rival",
+      "party": [
+        { "species": "KIRBY", "level": 26, "ability": "Color Change", "moves": ["Drill Run", "Drain Kiss", "Bulk Up", "Triple Kick"] },
+        { "species": "P. PLANT", "level": 26, "ability": "Poison Point", "moves": ["Poison Fang", "Leech Life", "Poison Gas", "Grass Knot"] },
+        { "species": "KING DEDEDE", "level": 25, "ability": "Thick Fat", "moves": ["Yawn", "Headbutt", "Peck", "Screech"] },
+        { "species": "STEVE-STONE", "level": 25, "ability": "Sand Veil", "moves": ["Dig", "Sand Tomb", "Iron Defense", "Rock Tomb"] },
+        { "species": "MARIO", "level": 27, "ability": "Blaze", "moves": ["Fire Punch", "Bullet Seed", "Headbutt", "Bulk Up"] }
+      ]
+    },
+    "Rival - SS Anne (Variant C)": {
+      "trainerClass": "Rival",
+      "name": "Rival",
+      "party": [
+        { "species": "TOON LINK", "level": 26, "ability": "Hyper Cutter", "moves": ["Triple Arrow", "Magnet Bomb", "Slash", "Leech Life"] },
+        { "species": "ROY", "level": 26, "ability": "Flame Body", "moves": ["Flame Wheel", "Low Sweep", "Cut", "Slash"] },
+        { "species": "GANONDORF", "level": 26, "ability": "Pressure", "moves": ["Rolling Kick", "Brutal Swing", "Disable", "Taunt"] },
+        { "species": "STEVE-STONE", "level": 25, "ability": "Sand Veil", "moves": ["Dig", "Sand Tomb", "Iron Defense", "Rock Tomb"] },
+        { "species": "META KNIGHT", "level": 27, "ability": "Keen Eye", "moves": ["Sharpen", "Agility", "Spirit Break", "Metal Claw"] }
+      ]
+    },
+    "Leader Lt. Surge - Double Battle": {
+      "trainerClass": "Leader",
+      "name": "Lt. Surge",
+      "party": [
+        { "species": "PICHU", "level": 28, "ability": "Minus", "moves": ["Shock Wave", "Grass Knot", "Nasty Plot", "Thunder Wave"] },
+        { "species": "PIKACHU", "level": 28, "ability": "Static", "moves": ["Fake Out", "Shock Wave", "Grass Knot", "ExtremeSpeed"] },
+        { "species": "ZSS", "level": 29, "ability": "Limber", "moves": ["Shock Wave", "Thunder Wave", "Fake Out", "Triple Kick"] },
+        { "species": "R.O.B.", "level": 29, "ability": "Battle Armor", "moves": ["Shift Gear", "Iron Head", "Blaze Torque", "Wild Charge"] },
+        { "species": "ROBIN", "level": 30, "ability": "Plus", "moves": ["Double-Shock", "Flamethrower", "Extrasensory", "Giga Drain"] },
+        { "species": "C. FALCON", "level": 30, "ability": "Blaze", "moves": ["Fire Punch", "Close Combat", "Rock Slide", "Thunder Punch"] }
+      ]
+    },
+    "Leader Erika": {
+      "trainerClass": "Leader",
+      "name": "Erika",
+      "party": [
+        { "species": "DAISY", "level": 34, "ability": "Levitate", "moves": ["Sleep Powder", "Trop Kick", "Body Slam", "Bulk Up"] },
+        { "species": "ISABELLE", "level": 34, "ability": "Sand Veil", "moves": ["Earth Power", "Hyper Voice", "Calm Mind", "Fire Blast"] },
+        { "species": "SAMUS", "level": 35, "ability": "Battle Armor", "moves": ["Thunderbolt", "Flash Cannon", "Flamethrower", "Shadow Ball"] },
+        { "species": "LUCINA", "level": 35, "ability": "Inner Focus", "moves": ["Swords Dance", "Sacred Sword", "Body Slam", "Shadow Claw"] },
+        { "species": "ZELDA", "level": 35, "ability": "Trace", "moves": ["Psychic", "Moonblast", "Calm Mind", "Mystic Fire"] },
+        { "species": "WII FIT", "level": 36, "ability": "Limber", "moves": ["Clang Soul", "Morning Sun", "Body Slam", "Fire Punch"] }
+      ]
+    },
+    "Boss Giovanni - Rocket Hideout": {
+      "trainerClass": "Boss",
+      "name": "Giovanni",
+      "party": [
+        { "species": "KLAPTRAP", "level": 35, "ability": "Levitate", "moves": ["Waterfall", "Crunch", "Leech Life", "Iron Tail"] },
+        { "species": "SEPHIROTH", "level": 35, "ability": "Pressure", "moves": ["Thief", "Taunt", "Night Slash", "Psycho Cut"] },
+        { "species": "HAMMER BRO", "level": 35, "ability": "Shell Armor", "moves": ["Rock Blast", "1000 Arrows", "Ice Hammer", "Spike Cannon"] },
+        { "species": "BOWSER JR.", "level": 37, "ability": "Levitate", "moves": ["Drill Run", "Iron Head", "Dragonbreath", "Iron Defense"] }
+      ]
+    },
+    "Rival - Pokemon Tower (Variant A)": {
+      "trainerClass": "Rival",
+      "name": "Rival",
+      "party": [
+        { "species": "LUIGI", "level": 35, "ability": "Blaze", "moves": ["Blaze Kick", "Shadow Punch", "Will-O-Wisp", "Leech Life"] },
+        { "species": "P. PLANT", "level": 36, "ability": "Poison Point", "moves": ["Crunch", "Leech Life", "Drill Run", "Grass Knot"] },
+        { "species": "BOWSER", "level": 36, "ability": "Intimidate", "moves": ["Fire Punch", "Crunch", "Dragon Claw", "Leer"] },
+        { "species": "STEVE-STONE", "level": 35, "ability": "Sand Veil", "moves": ["Rock Slide", "Earth Power", "Iron Defense", "Sand Tomb"] },
+        { "species": "GRENINJA", "level": 36, "ability": "Torrent", "moves": ["Dark Pulse", "Water Pulse", "Rock Slide", "Extrasensory"] },
+        { "species": "LINK", "level": 37, "ability": "Hyper Cutter", "moves": ["Triple Arrow", "Magnet Bomb", "Play Rough", "Bonemerang"] }
+      ]
+    },
+    "Rival - Pokemon Tower (Variant B)": {
+      "trainerClass": "Rival",
+      "name": "Rival",
+      "party": [
+        { "species": "KIRBY", "level": 35, "ability": "Color Change", "moves": ["Play Rough", "Stone Edge", "Triple Kick", "Drill Run"] },
+        { "species": "GRENINJA", "level": 36, "ability": "Torrent", "moves": ["Dark Pulse", "Water Pulse", "Rock Slide", "Extrasensory"] },
+        { "species": "KING DEDEDE", "level": 36, "ability": "Thick Fat", "moves": ["Drill Peck", "Yawn", "Body Slam", "Drill Run"] },
+        { "species": "STEVE-STONE", "level": 35, "ability": "Sand Veil", "moves": ["Rock Slide", "Earth Power", "Iron Defense", "Sand Tomb"] },
+        { "species": "P. PLANT", "level": 36, "ability": "Poison Point", "moves": ["Crunch", "Leech Life", "Drill Run", "Grass Knot"] },
+        { "species": "MARIO", "level": 37, "ability": "Blaze", "moves": ["Sky Uppercut", "Blaze Kick", "Mega Punch", "Rock Tomb"] }
+      ]
+    },
+    "Rival - Pokemon Tower (Variant C)": {
+      "trainerClass": "Rival",
+      "name": "Rival",
+      "party": [
+        { "species": "TOON LINK", "level": 35, "ability": "Hyper Cutter", "moves": ["Air Slash", "Triple Arrow", "Bonemerang", "Moonblast"] },
+        { "species": "ROY", "level": 36, "ability": "Flame Body", "moves": ["Fire Punch", "Low Sweep", "Counter", "Slash"] },
+        { "species": "GANONDORF", "level": 36, "ability": "Pressure", "moves": ["Night Slash", "Blaze Kick", "Brick Break", "Knock Off"] },
+        { "species": "STEVE-STONE", "level": 35, "ability": "Sand Veil", "moves": ["Rock Slide", "Earth Power", "Iron Defense", "Sand Tomb"] },
+        { "species": "GRENINJA", "level": 36, "ability": "Torrent", "moves": ["Dark Pulse", "Water Pulse", "Rock Slide", "Extrasensory"] },
+        { "species": "META KNIGHT", "level": 37, "ability": "Keen Eye", "moves": ["Swords Dance", "Spirit Break", "Smart Strike", "Drill Run"] }
+   ]
+    },
+    "Rival - Silph Co (Variant A)": {
+      "trainerClass": "Rival",
+      "name": "Rival",
+      "party": [
+        { "species": "STEVE-DIAMOND", "level": 42, "ability": "Sand Stream", "moves": ["Meteor Mash", "Earthquake", "Leaf Blade", "Sand Tomb"] },
+        { "species": "ROY", "level": 42, "ability": "Flame Body", "moves": ["Fire Punch", "Sacred Sword", "Swords Dance", "Shadow Claw"] },
+        { "species": "BOWSER", "level": 41, "ability": "Intimidate", "moves": ["Dragon Claw", "Megahorn", "Earthquake", "Fire Blast"] },
+        { "species": "P. PLANT", "level": 42, "ability": "Poison Point", "moves": ["Drill Run", "Wood Hammer", "Crunch", "Fire Blast"] },
+        { "species": "GRENINJA", "level": 42, "ability": "Torrent", "moves": ["Dark Pulse", "Surf", "Ice Beam", "Extrasensory"] },
+        { "species": "LINK", "level": 43, "ability": "Hyper Cutter", "moves": ["Sacred Sword", "Swords Dance", "Play Rough", "Bonemerang"] }
+      ]
+    },
+    "Rival - Silph Co (Variant B)": {
+      "trainerClass": "Rival",
+      "name": "Rival",
+      "party": [
+        { "species": "STEVE-DIAMOND", "level": 42, "ability": "Sand Stream", "moves": ["Meteor Mash", "Earthquake", "Leaf Blade", "Sand Tomb"] },
+        { "species": "GRENINJA", "level": 42, "ability": "Torrent", "moves": ["Dark Pulse", "Surf", "Ice Beam", "Extrasensory"] },
+        { "species": "KING DEDEDE", "level": 41, "ability": "Thick Fat", "moves": ["Earthquake", "Body Slam", "Drill Peck", "Slack Off"] },
+        { "species": "ROY", "level": 42, "ability": "Flame Body", "moves": ["Fire Punch", "Sacred Sword", "Swords Dance", "Shadow Claw"] },
+        { "species": "P. PLANT", "level": 42, "ability": "Poison Point", "moves": ["Drill Run", "Wood Hammer", "Crunch", "Fire Blast"] },
+        { "species": "MARIO", "level": 43, "ability": "Blaze", "moves": ["Double-Edge", "Flare Blitz", "Bulk Up", "Thunder Punch"] }
+      ]
+    },
+    "Rival - Silph Co (Variant C)": {
+      "trainerClass": "Rival",
+      "name": "Rival",
+      "party": [
+        { "species": "STEVE-DIAMOND", "level": 42, "ability": "Sand Stream", "moves": ["Meteor Mash", "Earthquake", "Leaf Blade", "Sand Tomb"] },
+        { "species": "P. PLANT", "level": 42, "ability": "Poison Point", "moves": ["Drill Run", "Wood Hammer", "Crunch", "Fire Blast"] },
+        { "species": "GANONDORF", "level": 41, "ability": "Pressure", "moves": ["Night Slash", "Blaze Kick", "Triple Axel", "Earthquake"] },
+        { "species": "ROY", "level": 42, "ability": "Flame Body", "moves": ["Fire Punch", "Sacred Sword", "Swords Dance", "Shadow Claw"] },
+        { "species": "GRENINJA", "level": 42, "ability": "Torrent", "moves": ["Dark Pulse", "Surf", "Ice Beam", "Extrasensory"] },
+        { "species": "META KNIGHT", "level": 43, "ability": "Keen Eye", "moves": ["Swords Dance", "Play Rough", "Drill Run", "BHEMOTHBLADE"] }
+      ]
+    },
+    "Boss Giovanni - Silph Co": {
+      "trainerClass": "Boss",
+      "name": "Giovanni",
+      "party": [
+        { "species": "KINGKROOL", "level": 43, "ability": "Thick Fat", "moves": ["Body Slam", "Waterfall", "Dark Pulse", "Bulk Up"] },
+        { "species": "SEPHIROTH", "level": 44, "ability": "Pressure", "moves": ["Thief", "Taunt", "Night Slash", "Psycho Cut"] },
+        { "species": "RIDLEY", "level": 43, "ability": "Intimidate", "moves": ["Crunch", "Leech Life", "Dual Wingbeat", "Night Slash"] },
+        { "species": "GHIRAHIM", "level": 44, "ability": "Pressure", "moves": ["Spirit Break", "Night Slash", "Swords Dance", "Dragon Claw"] },
+        { "species": "BOWSER", "level": 45, "ability": "Shell Armor", "moves": ["Flamethrower", "Dragon Claw", "Crunch", "Earthquake"] }
+      ]
+    },
+    "Fighting Dojo Master": {
+      "trainerClass": "Leader",
+      "name": "Dojo Master",
+      "party": [
+        { "species": "KNUCKLES", "level": 41, "ability": "Guts", "item": "Black Belt", "moves": ["Close Combat", "Ice Punch", "Meteor Mash", "Stone Edge"] },
+        { "species": "KAZUYA", "level": 42, "ability": "Rough Skin", "item": "Black Belt", "moves": ["Dark Pulse", "Aura Sphere", "Superpower", "Nasty Plot"] },
+        { "species": "TERRY", "level": 42, "ability": "Sturdy", "item": "Black Belt", "moves": ["Headlong Rush", "Close Combat"] },
+        { "species": "INCINEROAR", "level": 42, "ability": "Blaze", "item": "Black Belt", "moves": ["Crunch", "Flare Blitz", "Cross Chop", "Taunt"] },
+        { "species": "KEN", "level": 43, "ability": "Limber", "item": "Black Belt", "moves": ["Sky Uppercut", "Ice Punch", "Bulk Up", "Rock Slide"] },
+        { "species": "RYU", "level": 43, "ability": "Vital Spirit", "item": "Black Belt", "moves": ["Aura Sphere", "Calm Mind", "Superpower", "Shadow Ball"] }
+      ]
+    },
+    "Leader Sabrina": {
+      "trainerClass": "Leader",
+      "name": "Sabrina",
+      "party": [
+        { "species": "PIT", "level": 44, "ability": "Air Lock", "moves": ["Psyshield Bash", "Hurricane", "Close Combat", "Swords Dance"] },
+        { "species": "ISSAC", "level": 45, "ability": "Trace", "moves": ["Calm Mind", "Ice Beam", "Meteor Beam", "Earth Power"] },
+        { "species": "SHULK-SMSH", "level": 44, "ability": "Hyper Cutter", "moves": ["Sacred Sword", "Psycho Cut", "Shadow Claw", "Smart Strike"] },
+        { "species": "CLOUD", "level": 46, "ability": "Hyper Cutter", "moves": ["Psycho Cut", "Swords Dance", "BHEMOTHBLADE", "Sacred Sword"] },
+        { "species": "LINK", "level": 45, "ability": "Hyper Cutter", "moves": ["Sacred Sword", "Bonemerang", "Play Rough", "Fleur Cannon"] },
+        { "species": "HERO", "level": 46, "ability": "Own Tempo", "moves": ["Boomburst", "Fire Blast", "Thunder", "Psychic"] }
+      ]
+    },
+    "Pkmn Trainer Brenden": {
+      "trainerClass": "Trainer",
+      "name": "Brenden",
+      "party": [
+        { "species": "DARK PIT", "level": 46, "ability": "Pressure", "moves": ["Air Slash", "1000 Arrows", "Sucker Punch", "Poison Jab"] },
+        { "species": "LYN", "level": 47, "ability": "Hustle", "moves": ["Cross Chop", "Dragon Claw", "Swords Dance", "ExtremeSpeed"] },
+        { "species": "DIDDY KONG", "level": 45, "ability": "Vital Spirit", "moves": ["Trop Kick", "Slack Off", "Bulk Up", "Brick Break"] },
+        { "species": "MAGNUS", "level": 47, "ability": "Rock Head", "moves": ["Rock Blast", "Revenge", "BHEMOTHBLADE", "Hurricane"] },
+        { "species": "MR. G&W", "level": 45, "ability": "Rock Head", "moves": ["Order Up", "Zen Headbutt", "Head Smash", "Earthquake"] },
+        { "species": "B. SNAGRET", "level": 48, "ability": "Keen Eye", "moves": ["Drill Peck", "Drill Run", "Roost", "Bulk Up"] }
+      ]
+    },
+    "Leader Koga - Double Battle": {
+      "trainerClass": "Leader",
+      "name": "Koga",
+      "party": [
+        { "species": "SKULL KID", "level": 50, "ability": "Levitate", "moves": ["Clang Soul", "Dark Pulse", "Moonblast", "Giga Drain"] },
+        { "species": "INKLING", "level": 49, "ability": "Poison Point", "moves": ["Spore", "Follow Me", "Fake Out", "Gunk Shot"] },
+        { "species": "SHEIK", "level": 50, "ability": "Speed Boost", "moves": ["Fake Out", "Poltergeist", "Swords Dance", "Thunder Wave"] },
+        { "species": "GRENINJA-A", "level": 51, "ability": "Torrent", "moves": ["Surf", "Dark Pulse", "Fake Out", "Ice Beam"] },
+        { "species": "WOLF", "level": 50, "ability": "Intimidate", "moves": ["Sucker Punch", "Meteor Mash", "Light Screen", "Reflect"] },
+        { "species": "GRAY FOX", "level": 51, "ability": "Compoundeyes", "moves": ["Swords Dance", "Sucker Punch", "Meteor Mash", "Close Combat"] }
+      ]
+    },
+    "Leader Blaine": {
+      "trainerClass": "Leader",
+      "name": "Blaine",
+      "party": [
+        { "species": "CHARIZARD", "level": 57, "ability": "Drought", "moves": ["Fire Blast", "Earthquake", "SolarBeam", "Sunny Day"] },
+        { "species": "YINK-DEKU", "level": 58, "ability": "Chlorophyll", "moves": ["Leaf Blade", "Play Rough", "Swords Dance", "Bonemerang"] },
+        { "species": "PETEY P.", "level": 58, "ability": "Chlorophyll", "moves": ["SolarBeam", "Fire Blast", "Sunny Day", "Nasty Plot"] },
+        { "species": "TWINROVA", "level": 58, "ability": "White Smoke", "moves": ["Fire Blast", "Ice Beam", "Flash Cannon", "Thunderbolt"] },
+        { "species": "DR. MARIO", "level": 59, "ability": "Rock Head", "moves": ["Double-Edge", "Head Smash", "Close Combat", "Fire Punch"] },
+        { "species": "ROY", "level": 59, "ability": "Flame Body", "moves": ["Close Combat", "Flare Blitz", "Swords Dance", "Reversal"] }
+      ]
+    },
+    "Cue Ball Paxton": {
+      "trainerClass": "Trainer",
+      "name": "Paxton",
+      "party": [
+        { "species": "WARIO", "level": 57, "ability": "Stench", "item": "Choice Band", "moves": ["Explosion"] },
+        { "species": "KINGKROOL", "level": 58, "ability": "Thick Fat", "moves": ["Sucker Punch", "Wave Crash", "Mirror Coat", "Dark Pulse"] },
+        { "species": "RIDLEY", "level": 59, "ability": "Intimidate", "moves": ["Dragon Rush", "Power Whip", "Sludge Bomb", "Explosion"] },
+        { "species": "WALUIGI", "level": 58, "ability": "Stench", "item": "Brightpowder", "moves": ["Glare", "Waterfall", "Water Pulse", "Flash"] },
+        { "species": "LURCHTHORN", "level": 59, "ability": "Rough Skin", "item": "Leftovers", "moves": ["Iron Tail", "Substitute", "Leech Seed", "Toxic"] },
+        { "species": "ISABELLE", "level": 60, "ability": "Sand Veil", "moves": ["Meteor Beam", "Energy Ball", "Doom Desire", "Earth Power"] }
+   ]
+    },
+    "Leader Giovanni - Viridian City": {
+      "trainerClass": "Leader",
+      "name": "Giovanni",
+      "party": [
+        { "species": "YLW DEVIL", "level": 65, "ability": "Thick Fat", "item": "Silk Scarf", "moves": ["Sludge Bomb", "Ice Punch", "Volt Tackle", "Explosion"] },
+        { "species": "KINGKROOL", "level": 65, "ability": "Thick Fat", "item": "Sitrus Berry", "moves": ["Amnesia", "Sucker Punch", "Wave Crash", "Blizzard"] },
+        { "species": "GANONDORF", "level": 65, "ability": "Rough Skin", "item": "Choice Band", "moves": ["Wicked Blow", "Sucker Punch"] },
+        { "species": "KING DEDEDE", "level": 65, "ability": "Thick Fat", "item": "Leftovers", "moves": ["Body Slam", "Slack Off", "Earthquake", "Ice Hammer"] },
+        { "species": "ONE WINGED", "level": 65, "ability": "Intimidate", "item": "Leftovers", "moves": ["Swords Dance", "Brave Bird", "Night Slash", "Leech Life"] },
+        { "species": "BOWSER", "level": 65, "ability": "Shell Armor", "item": "Leftovers", "moves": ["Dragon Dance", "Outrage", "Blaze Kick", "Earthquake"] }
+      ]
+    },
+    "Rival - Route 22 Final Fight (3 Paths Unified)": {
+      "trainerClass": "Rival",
+      "name": "Rival",
+      "party": [
+        { "species": "STEVE-DIAMOND", "level": 66, "ability": "Sand Stream", "moves": ["Meteor Mash", "Headlong Rush", "Wood Hammer", "Magma Storm"] },
+        { "species": "GRENINJA-A", "level": 66, "ability": "Torrent", "moves": ["Dark Pulse", "Hydro Pump", "Blizzard", "Extrasensory"] },
+        { "species": "ROY", "level": 65, "ability": "Flame Body", "moves": ["Swords Dance", "Flare Blitz", "Close Combat", "Shadow Claw"] },
+        { "species": "GANONDORF", "level": 65, "ability": "Rough Skin", "moves": ["Sucker Punch", "Wicked Blow", "Superpower", "Triple Axel"] },
+        { "species": "PETEY P.", "level": 66, "ability": "Chlorophyll", "moves": ["Fire Blast", "Seed Flare", "Earthquake", "Meteor Mash"] },
+        { "species": "MEWTWO", "level": 67, "ability": "Pressure", "moves": ["Psychic", "Aura Sphere", "Ice Beam", "Thunderbolt"] }
+      ]
+    },
+    "Pkmn Trainer May": {
+      "trainerClass": "Trainer",
+      "name": "May",
+      "party": [
+        { "species": "YINK-GORON", "level": 68, "ability": "Sand Veil", "moves": ["Spikes", "Stone Edge", "Earthquake", "Play Rough"] },
+        { "species": "BAYONETTA", "level": 69, "ability": "Marvel Scale", "moves": ["Poltergeist", "Triple Axel", "Glare", "Zen Headbutt"] },
+        { "species": "CHROM", "level": 69, "ability": "Inner Focus", "moves": ["Swords Dance", "BHEMOTHBLADE", "Close Combat", "Shadow Claw"] },
+        { "species": "FLYING MAN", "level": 68, "ability": "Vital Spirit", "moves": ["Hi Jump Kick", "Brave Bird", "Rock Slide", "Iron Head"] },
+        { "species": "TOON LINK", "level": 68, "ability": "Shield Dust", "moves": ["Calm Mind", "Hurricane", "Moonblast", "Bonemerang"] },
+        { "species": "PYRA", "level": 69, "ability": "Blaze", "moves": ["Bitter Blade", "Psycho Cut", "Swords Dance", "Sacred Sword"] }
+      ]
+    },
+    "Evo Stones Guardian": {
+      "trainerClass": "Boss",
+      "name": "Bethany",
+      "party": [
+        { "species": "SHULK-SPD", "level": 69, "ability": "Hyper Cutter", "item": "Brightpowder", "moves": ["Light Screen", "Reflect", "Swords Dance", "Baton Pass"] },
+        { "species": "INCINEROAR", "level": 69, "ability": "Intimidate", "item": "Charcoal", "moves": ["Flare Blitz", "Fake Out", "Crunch", "Rock Tomb"] },
+        { "species": "IKE", "level": 69, "ability": "Vital Spirit", "item": "Quick Claw", "moves": ["BHEMOTHBLADE", "Sacred Sword", "ExtremeSpeed", "Bulk Up"] },
+        { "species": "PETEY P.", "level": 70, "ability": "Chlorophyll", "item": "Leftovers", "moves": ["Power Whip", "Drill Run", "Leech Seed", "Fire Blast"] },
+        { "species": "METARIDLEY", "level": 70, "ability": "Intimidate", "item": "Lum Berry", "moves": ["Dragon Rush", "Dragon Dance", "Iron Tail", "Rock Slide"] },
+        { "species": "ARSENE", "level": 70, "ability": "Flash Fire", "item": "Leftovers", "moves": ["Swords Dance", "Beat Up", "Bitter Blade", "Triple Axel"] }
+      ]
+    },
+    "Yellow Devil Guardian": {
+      "trainerClass": "Guardian",
+      "name": "Mark",
+      "party": [
+        { "species": "LURCHTHORN", "level": 69, "ability": "Rough Skin", "item": "Leftovers", "moves": ["Leech Seed", "Spikes", "Power Whip", "Iron Defense"] },
+        { "species": "PIKACHU", "level": 70, "ability": "Plus", "item": "Light Ball", "moves": ["Surf", "Play Rough", "ExtremeSpeed", "Thunderbolt"] },
+        { "species": "ZERO", "level": 70, "ability": "Volt Absorb", "item": "Lum Berry", "moves": ["Shift Gear", "BHEMOTHBLADE", "Superpower", "Ice Punch"] },
+        { "species": "DARK SAMUS", "level": 69, "ability": "Volt Absorb", "item": "Quick Claw", "moves": ["Meteor Beam", "Bug Buzz", "Thunderbolt", "Flamethrower"] },
+        { "species": "DR. WILY", "level": 69, "ability": "Levitate", "item": "Sitrus Berry", "moves": ["Boomburst", "Techno Blast", "Nasty Plot", "Flamethrower"] },
+        { "species": "YLW DEVIL", "level": 70, "ability": "Liquid Ooze", "item": "Leftovers", "moves": ["Gunk Shot", "Earthquake", "Ice Punch", "Stockpile"] }
+      ]
+    },
+    "Andross Guardian": {
+      "trainerClass": "Guardian",
+      "name": "Logan",
+      "party": [
+        { "species": "DILLION", "level": 69, "ability": "Rock Head", "item": "Choice Band", "moves": ["Head Smash"] },
+        { "species": "BOMBERMAN", "level": 70, "ability": "Flash Fire", "item": "Silk Scarf", "moves": ["Fire Blast", "Explosion", "Focus Blast", "Energy Ball"] },
+        { "species": "DONKEYKONG", "level": 70, "ability": "Guts", "item": "Black Belt", "moves": ["Stone Edge", "Close Combat", "Earthquake", "Sucker Punch"] },
+        { "species": "FOX", "level": 69, "ability": "Hustle", "item": "Sitrus Berry", "moves": ["Bulk Up", "Double-Edge", "Triple Kick", "Sucker Punch"] },
+        { "species": "FALCO", "level": 69, "ability": "Keen Eye", "item": "Sharp Beak", "moves": ["ExtremeSpeed", "Meteor Mash", "Flare Blitz", "Tail Slap"] },
+        { "species": "ANDROSS", "level": 70, "ability": "Levitate", "item": "Leftovers", "moves": ["Meteor Beam", "Focus Blast", "Energy Ball", "Recover"] }
+      ]
+    },
+    "Twinrova Guardian": {
+      "trainerClass": "Guardian",
+      "name": "Irene",
+      "party": [
+        { "species": "MIDNA", "level": 69, "ability": "Serene Grace", "item": "Spell Tag", "moves": ["Shadow Ball", "Nasty Plot", "Focus Blast", "Psychic"] },
+        { "species": "ICECLIMBER", "level": 70, "ability": "Huge Power", "item": "NeverMeltIce", "moves": ["Ice Hammer", "Play Rough", "Brick Break", "Wood Hammer"] },
+        { "species": "META KNIGHT", "level": 70, "ability": "Keen Eye", "item": "Metal Coat", "moves": ["Swords Dance", "Play Rough", "Drill Run", "BHEMOTHBLADE"] },
+        { "species": "GHIRAHIM", "level": 69, "ability": "Pressure", "item": "Soft Sand", "moves": ["Nasty Plot", "Moonblast", "Earth Power", "Sludge Bomb"] },
+        { "species": "LUCARIO", "level": 69, "ability": "Inner Focus", "item": "Black Belt", "moves": ["Close Combat", "Ice Punch", "Meteor Mash", "Stone Edge"] },
+        { "species": "TWINROVA", "level": 70, "ability": "White Smoke", "item": "Charcoal", "moves": ["Nasty Plot", "Fire Blast", "Ice Beam", "Energy Ball"] }
+      ]
+    },
+    "Mewtwo Guardian - Double Battle": {
+      "trainerClass": "Guardian",
+      "name": "Shane",
+      "party": [
+        { "species": "SHADOW", "level": 69, "ability": "Shadow Tag", "item": "Brightpowder", "moves": ["Flash", "Growl", "Encore", "Dark Pulse"] },
+        { "species": "YINK-DEITY", "level": 70, "ability": "Intimidate", "item": "Leftovers", "moves": ["Play Rough", "Bonemerang", "Poison Jab", "Swords Dance"] },
+        { "species": "TIKI", "level": 70, "ability": "Marvel Scale", "item": "White Herb", "moves": ["Calm Mind", "Draco Meteor", "Flash Cannon", "Earth Power"] },
+        { "species": "SNAKE", "level": 70, "ability": "Arena Trap", "item": "Leftovers", "moves": ["Meteor Mash", "Triple Axel", "Sucker Punch", "Hi Jump Kick"] },
+        { "species": "ASHLEY", "level": 69, "ability": "Compound Eyes", "item": "Sitrus Berry", "moves": ["Hypnosis", "Fake Out", "Reflect", "Light Screen"] },
+        { "species": "MEWTWO", "level": 70, "ability": "Pressure", "item": "Sitrus Berry", "moves": ["Psychic", "Shadow Ball", "Nasty Plot", "Aura Sphere"] }
+      ]
+    },
+    "Elite Four Lorelei - Double Battle": {
+      "trainerClass": "Elite Four",
+      "name": "Lorelei",
+      "party": [
+        { "species": "CORRIN", "level": 69, "ability": "Drizzle", "item": "Sitrus Berry", "moves": ["SURGESTRIKES", "Dragon Rush", "Rain Dance", "Ice Punch"] },
+        { "species": "GRENINJA-A", "level": 70, "ability": "Torrent", "item": "Mystic Water", "moves": ["Surf", "Hydro Pump", "Blizzard", "Fake Out"] },
+        { "species": "LUCAS", "level": 70, "ability": "Swift Swim", "item": "White Herb", "moves": ["Ice Beam", "Surf", "Thunder", "Psycho Boost"] },
+        { "species": "POLAR BEAR", "level": 69, "ability": "Swift Swim", "item": "Leftovers", "moves": ["Wave Crash", "Play Rough", "Swords Dance", "Milk Drink"] },
+        { "species": "PHOSPHORA", "level": 69, "ability": "Volt Absorb", "item": "Sitrus Berry", "moves": ["Fake Out", "Hurricane", "Thunder", "Thunder Wave"] },
+        { "species": "DUON", "level": 70, "ability": "Drizzle", "item": "Sitrus Berry", "moves": ["Surf", "Hydro Pump", "Techno Blast", "Thunder"] }
+      ]
+    },
+    "Elite Four Bruno": {
+      "trainerClass": "Elite Four",
+      "name": "Bruno",
+      "party": [
+        { "species": "STEVE-DIAMOND", "level": 73, "ability": "Sand Stream", "item": "Leftovers", "moves": ["Headlong Rush", "Magma Storm", "Meteor Mash", "Explosion"] },
+        { "species": "LITTLE MAC", "level": 72, "ability": "Vital Spirit", "item": "Black Belt", "moves": ["Close Combat", "Double-Edge", "Mach Punch", "Ice Punch"] },
+        { "species": "BYLETH", "level": 72, "ability": "Sand Veil", "item": "Brightpowder", "moves": ["Behemoth Blade", "Wood Hammer", "Earthquake", "Triple Arrow"] },
+        { "species": "SHULK-BSTR", "level": 72, "ability": "Hyper Cutter", "item": "Twisted Spoon", "moves": ["Luster Purge", "Energy Ball", "Flash Cannon", "Future Sight"] },
+        { "species": "GALLEOM", "level": 73, "ability": "Volt Absorb", "item": "White Herb", "moves": ["Meteor Mash", "Close Combat", "OVERHEAT", "Shift Gear"] },
+        { "species": "CRAZY HAND", "level": 73, "ability": "Own Tempo", "item": "Sitrus Berry", "moves": ["Double-Edge", "Close Combat", "Wicked Blow", "Thunder Punch"] }
+      ]
+    },
+    "Elite Four Agatha": {
+      "trainerClass": "Elite Four",
+      "name": "Agatha",
+      "party": [
+        { "species": "SIMON", "level": 74, "ability": "White Smoke", "item": "Leftovers", "moves": ["Nasty Plot", "Shadow Ball", "Fire Blast", "Tachyon Slash"] },
+        { "species": "A.MINISTER", "level": 75, "ability": "Levitate", "item": "Leftovers", "moves": ["Calm Mind", "Techno Blast", "Hypnosis", "Psychic"] },
+        { "species": "ARSENE", "level": 75, "ability": "Flash Fire", "item": "Leftovers", "moves": ["Beat Up", "Fire Blast", "Triple Axel", "Swords Dance"] },
+        { "species": "ONE WINGED", "level": 74, "ability": "Intimidate", "item": "Leftovers", "moves": ["Sucker Punch", "Flare Blitz", "Brave Bird", "Swords Dance"] },
+        { "species": "ROSALUMA", "level": 75, "ability": "Marvel Scale", "item": "Leftovers", "moves": ["Moonblast", "Cosmic Power", "Moonlight", "Fire Blast"] },
+        { "species": "MARX", "level": 76, "ability": "Levitate", "item": "Sitrus Berry", "moves": ["Moonblast", "Astral Barrage", "Fire Blast", "Nasty Plot"] }
+      ]
+    },
+    "Elite Four Lance": {
+      "trainerClass": "Elite Four",
+      "name": "Lance",
+      "party": [
+        { "species": "RATHALOS", "level": 78, "ability": "Rough Skin", "item": "Leftovers", "moves": ["Dragon Dance", "Flare Blitz", "Outrage", "Earthquake"] },
+        { "species": "PALUTENA", "level": 77, "ability": "Natural Cure", "item": "Dragon Scale", "moves": ["Dragon Energy", "Photon Geyser", "Nasty Plot", "Fire Blast"] },
+        { "species": "RAYQUAZA", "level": 78, "ability": "Air Lock", "item": "Sitrus Berry", "moves": ["Swords Dance", "Dragon Claw", "Brave Bird", "ExtremeSpeed"] },
+        { "species": "METARIDLEY", "level": 78, "ability": "Intimidate", "item": "Sitrus Berry", "moves": ["Dragon Claw", "Roost", "Fire Blast", "Techno Blast"] },
+        { "species": "M-MEWTWO-Y", "level": 77, "ability": "Pressure", "item": "Twisted Spoon", "moves": ["Luster Purge", "Aura Sphere", "Ice Beam", "Nasty Plot"] },
+        { "species": "GIGABOWSER", "level": 78, "ability": "Shell Armor", "item": "Leftovers", "moves": ["Dragon Dance", "Outrage", "Crunch", "Earthquake"] }
+      ]
+    },
+    "Champion Rival Fight": {
+      "trainerClass": "Champion",
+      "name": "Rival",
+      "party": [
+        { "species": "MASTERHAND", "level": 79, "ability": "Pressure", "item": "Leftovers", "moves": ["Bulk Up", "Mega Punch", "Fire Punch", "Ice Punch"] },
+        { "species": "BEASTGANON", "level": 80, "ability": "Flame Body", "item": "Blackglasses", "moves": ["Sucker Punch", "Sacred Sword", "Wicked Blow", "Iron Head"] },
+        { "species": "DHARKON", "level": 79, "ability": "Guts", "item": "Leftovers", "moves": ["Calm Mind", "Dark Pulse", "Moonlight", "Sludge Bomb"] },
+        { "species": "GALEEM", "level": 79, "ability": "Marvel Scale", "item": "Sitrus Berry", "moves": ["Light of Ruin", "Photon Geyser", "Nasty Plot", "Fire Blast"] },
+        { "species": "TABUU", "level": 80, "ability": "Clear Body", "item": "Sitrus Berry", "moves": ["Astral Barrage", "Focus Blast", "Beat Up", "Photon Geyser"] },
+        { "species": "MASTERCORE", "level": 80, "ability": "Pressure", "item": "White Herb", "moves": ["Astral Barrage", "Superpower", "Glare", "Double-Edge"] }
+      ]
+    }
+  }
+}
+add inital calc data
